@@ -1,0 +1,763 @@
+'St. Helens Foyer':
+    Friday:
+        - name: Mingle Space
+          description: >
+              Have a seat at one of the tables and take a load off! Chat with old friends, and make some new ones!
+          start: 12:00pm
+          end: 9:00pm
+    Saturday:
+        - name: Mingle Space
+          description: >
+              Have a seat at one of the tables and take a load off! Chat with old friends, and make some new ones!
+          start: 12:00pm
+          end: 6:00pm
+        - name: 'PATRON/SPONSOR ONLY: Tapas with the Guests of Honour'
+          host: Jumpiicat, Temperance, Etuix, Onnanoko, Pepper Coyote & Fox Amoore
+          description: >
+              Come meet and mingle our Guests of honor in a more casual setting, and enjoy some hors d'oeuvres!
+          start: 7:00pm
+          end: 9:00pm
+    Sunday:
+        - name: Mingle Space
+          description: >
+              Have a seat at one of the tables and take a load off! Chat with old friends, and make some new ones!
+          start: 10:00am
+          end: 5:00pm
+
+'Secondary Theater|St Helens A & B':
+    Friday:
+        - name: 'Closed'
+          start: 9:00am
+          end: 12:00pm
+        - name: 'Home Movies (Bring your own DVDs)'
+          description: >
+              Did you bring a favorite furry movie you own? Want to watch it on our Giant Screen? We have a DVD player you can use too. PG-13 or below.
+          start: 12:00pm
+          end: 9:00pm
+        - name: 'Closed'
+          start: 9:00pm
+          end: 10:00pm
+        - name: 'Pet Play 101: Don''t Stop Retrievin'''
+          host: Pup Zombie, The Leather Lion, and Pup Cedar
+          description: >
+              Bring your leash, (tennis) balls, or scratching post. PDX-PAH (Portland Pets and Handlers) will lead a workshop with covering the foundations of Pet Play. We will dive into aspects of gear, toys, history, roles, plus the fun and trouble pets can get into. It will be a playful space where you can learn what this crazy thing called Pet Play is all about. 
+          mature: true
+          start: 10:00pm
+          end: 11:00pm
+        - name: 'Closed'
+          start: 11:00pm
+          end: 2:00am
+    Saturday:
+        - name: 'Closed'
+          start: 9:00am
+          end: 10:00am
+        - name: 'Saturday Morning Cartoons'
+          description: >
+              Come enjoy your favorite cartoons with friends!
+          start: 10:00am
+          end: 12:00pm
+        - name: 'Closed'
+          start: 12:00pm
+          end: 2:00pm
+        - name: 'Furlandia Showcase'
+          host: Atso
+          description: >
+              Can you sing? Or juggle? Does the heart of a poet beat within you? Are you funny? Do you do magic tricks? Do you dance the Lambada? Or tap? Can you solve a Rubik’s Cube with your feet? Brush off your old Talent Show act and come join our Showcase!  The only rules are: keep the content PG-13 or below, and no fursuits! And no, we won't judge&hellip; much.
+          start: 2:00pm
+          end: 3:30pm
+        - name: 'Closed'
+          start: 3:30pm
+          end: 6:30pm
+        - name: 'Karaoke Fur All'
+          host: Strawberrykat, Serenakitty
+          description: >
+              Come howl along to your favorite songs! We won't judge, promise!
+          start: 6:30pm
+          end: 9:00pm
+        - name: 'Closed'
+          start: 9:00pm
+          end: 10:00pm
+        - name: 'Fox Amoore and Pepper Coyote After Hours Concert'
+          host: Fox Amoore and Pepper Coyote
+          description: >
+              Join our musical guests once again to wind down at the end of the day in a more relaxed concert setting.
+          start: 10:00pm
+          end: 12:00am
+          mature: true
+        - name: 'Closed'
+          start: 12:00am
+          end: 2:00am
+    Sunday:
+        - name: 'Closed'
+          start: 9:00am
+          end: 10:00am
+        - name: 'PATRON/SPONSOR ONLY: Coffee and Cakes with the Guests of Honour'
+          host: Jumpiikat, Temperance, Etuix, Onnanoko, Pepper Coyote & Fox Amoore
+          description: >
+              Wake up with morning coffee and pleasant conversations with our Guests of Honor.
+          start: 10:00am
+          end: 12:00pm
+        - name: 'Closed'
+          start: 12:00pm
+          end: 2:00pm
+        - name: 'Home Movies (Bring your own DVDs)'
+          description: >
+              Did you bring a favorite furry movie you own? Want to watch it on our Giant Screen? We have a DVD player you can use too. PG-13 or below.
+          start: 2:00pm
+          end: 5:00pm
+        - name: 'Closed'
+          start: 5:00pm
+          end: 2:00am
+
+'Panel A|St Helens C':
+    Friday:
+        - name: 'Closed'
+          start: 9:00am
+          end: 1:00pm
+        - name: 'Tandy Leather - Make It and Take It'
+          host: Tandy Leather
+          description: >
+              At our make it and take it, you can stamp out a leather bookmark, or leather key chain. A small project you can make in few minutes and take with you. Bring out your inner leather artisan.
+          start: 1:00pm
+          end: 2:00pm
+        - name: 'Basic Sewing Skills'
+          host: Karyl Carlson
+          description: >
+              Be it plushies, making tails or ears, or fixing costumes, here are the stitches you need to know!
+          start: 2:00pm
+          end: 3:00pm
+        - name: 'Vacuum Forming'
+          host: Temperance
+          description: >
+              Fursuit headbases can be made from a variety of materials. Aside from carving foam or casting resin or fiberglass, a personal vacuum-forming system can be used to make heads cheaply and quickly. This panel will describe how to purchase a vacuum form machine or source instruction manuals on how to build your own. It will also cover the various ins and outs of vacuum-forming from the model base to finished product, types of plastics, and process of forming.
+          start: 3:00pm
+          end: 4:00pm
+        - name: 'Build-a-Plushie'
+          host: Kite
+          description: >
+              Create your very own unique plushie from a variety of stuffed animal parts, stitching together a cute (or ferocious) plushie friend to add to your collection, or as a fun gift for someone special. Perhaps you'll create the next hit furry species! No experience needed, basic sewing instruction and supplies will be provided.
+          start: 4:00pm
+          end: 5:00pm
+        - name: 'Closed'
+          start: 5:00pm
+          end: 7:00pm
+        - name: 'Welcome To Your First FurCon!'
+          host: Queenie, Kako
+          description: >
+              Hooray! You've made it to your first furry convention! Now what? Join us as we give you some tips and tricks to make it safely through Furlandia and have as much fun as absolutely possible! Magic may be ruined&hellip;
+          start: 7:00pm
+          end: 8:00pm
+        - name: 'Fursuit Meet and Greet'
+          host: Temperance
+          description: >
+              Come and hang out with fellow suiters and meet one another. You can even take your head off if you’re comfortable.
+          start: 8:00pm
+          end: 9:00pm
+        - name: 'Closed'
+          start: 9:00pm
+          end: 10:00pm
+        - name: 'Finding Kink: An Introduction to the BDSM Community'
+          host: RACK Leather, other adult contributors
+          description: >
+              Do you think you are a kinky fur, but don't know how to find others like you? Do leather, leashes, whips and chains seem like a good time to you but don't know where to learn about them? Looking for other like minded fur folks? This panel is an introduction to finding and getting involved with the BDSM and Kink Communities. We will talk about munches, parties, terminology, where to find dungeons and private parties, and even better, how to meet the people that can get you into them. We'll also talk about some of the basics of playing, interacting safely and just generally polite behavior and etiquette when you get involved in the kink community.
+          start: 10:00pm
+          end: 11:00pm
+          mature: true
+        - name: 'Rope 101: A Pragmatic Guide to Beginning Rope Skills'
+          host: RACK Leather
+          description: >
+              Rope Bondage has a long and storied history, depending on whom you ask. Knowing where rope techniques come from can give you a wonderful idea of traditional methods and styles of rope bondage. Unfortunately, most of the time that history does not translate into real, practical skills you can use to bring Rope Bondage skills into your regular play. This class and its instructor, Geoffrey Quick, brings a more practical approach to teaching rope skills.
+          start: 11:00pm
+          end: 11:30pm
+          mature: true
+        - name: 'Closed'
+          start: 11:30pm
+          end: 2:00am
+    Saturday:
+        - name: 'Closed'
+          start: 9:00am
+          end: 10:00am
+        - name: 'Fursuiter Handling 101'
+          host: Queenie, CornDog, et al.
+          description: >
+              Want to be a Fursuit Handler? Come to Fursuit Handling 101!
+          start: 10:00am
+          end: 11:00am
+        - name: 'Writing: How to Make Ideas Work'
+          host: Madison Keller, Mary E. Lowd, Garrett Marco
+          description: >
+              How to make content work for you. Weaving together your theme, pacing, flow, plot, setting, and characters into a comprehensive story.
+          start: 11:00am
+          end: 12:00pm
+        - name: 'Head Making Workshop'
+          host: Temperance, Ognas
+          description: >
+              Work with our Guest of Honor Temperance and Guest of Honor Alumnus Ognas as they help teach the basics of head-making.
+          start: 12:00pm
+          end: 2:00pm
+        - name: 'Fursuit Making - Advanced Techniques'
+          host: Temperance
+          description: >
+              Dragons and Gryphons and Chimeras, oh my!  Fursuits are fun to make, but some are more challenging than others.  Unique or specialized creatures often require different methods and materials than an average fursuit.  In this panel you will learn some of the special techniques for making more complex creatures such as Dragons and Wyverns, Insects and birds.  Learn how to make wings and wing harnesses, muscle and body padding, and the ins-and-outs of making costumes with fabrics and materials other than faux fur.
+          start: 2:00pm
+          end: 3:00pm
+        - name: 'Writing: How To Word Good'
+          host: Madison Keller, Mary E. Lowd, Garrett Marco
+          description: >
+              What makes stories work at the sentence level? We will discuss the technical side of the craft&mdash;writing and grammar.
+          start: 3:00pm
+          end: 4:00pm
+        - name: "Closed"
+          start: 4:00pm
+          end: 5:00pm
+        - name: 'Fursuiting 101'
+          host: Queenie, CornDog
+          description: >
+              Want to know more about Fursuiting? Come and learn what it's all about.
+          start: 5:00pm
+          end: 6:00pm
+        - name: 'Attraction to Fictional Characters'
+          host: Tim Bloom (Yuri Matsue)+
+          description: >
+              A well-written fictional character can feel like a friend, or even a loved one. Why do we get so attached to them? This panel explores our fascination.
+          start: 6:00pm
+          end: 7:00pm
+        - name: 'The C&#243;yotl Awards'
+          host: Mary E. Lowd
+          description: >
+              An elegant awards ceremony where excellence in the realm of furry fiction from the previous year is celebrated.
+          start: 7:00pm
+          end: 8:00pm
+        - name: 'The Life of a Radio DJ'
+          host: Eaite
+          description: >
+              They're the sexy voice on your favorite radio station.  If you think it's all fun and games, well, you're mostly right.  We'll talk about the equipment, software, fun and games that go into each show.
+          start: 8:00pm
+          end: 9:00pm
+        - name: 'Closed'
+          start: 9:00pm
+          end: 10:00pm
+        - name: 'Pet Play 201: Hold On to the Feline'
+          host: Ryan the Leather Lion, 2017 NW Handler Caressa, 2017 NW Puppy Skuff, Daddy JJ, Pup Jarrad, and Pup Mox
+          description: >
+              So you have a handle on the basics of pet play (it’s ok if you don't...), but you want to know more? Pet Play 201 will feature a panel of community members from all walks of life. We have multiple titleholders, furries who have added pet play to their way of life, leather men who are active in the community, handlers who encourage pets, males, females, and most importantly you. The audience. This is going to be an open forum where YOU get to ask the questions and also help explore the answers. It will be a safe space to help facilitate good discussion and deep exploration of what it means to be a pet and the similarities to furry community.
+          start: 10:00pm
+          end: 11:00pm
+          mature: true
+        - name: 'Dramatic Reading Theatre'
+          host: Dyke Grenadier, Akotos
+          description: >
+              Join us for an interactive experience involving fanfiction, original furry stories, spaghetti, lasagna, and tomatoes.
+          start: 11:00pm
+          end: 11:30pm
+          mature: true
+        - name: 'Closed'
+          start: 11:30pm
+          end: 2:00am
+    Sunday:
+        - name: 'Closed'
+          start: 9:00am
+          end: 11:00am
+        - name: 'Writing: How to Publish'
+          host: Madison Keller, Mary E. Lowd, Garrett Marco
+          description: >
+              How to get there and what to do afterward to make it keep happening, whether you self-publish or through a press.
+          start: 11:00am
+          end: 12:00pm
+        - name: 'You''ve finished worldbuilding. Now, what do you cut out?'
+          host: Gibbitt
+          description: >
+              You have built your world, with all of its laws, quirks, physics, and grandeur. This panel will help you learn which parts of that you should shelve for now.
+          start: 12:00pm
+          end: 1:00pm
+        - name: 'Closed'
+          start: 1:00pm
+          end: 2:00pm
+        - name: 'RAIn Board meeting (open to public)'
+          host: RAIn Board
+          description: >
+              Meet with the board of directors of RAIn. No umbrella required.
+          start: 2:00pm
+          end: 3:00pm
+        - name: 'Writing Life'
+          host: Madison Keller, Mary E. Lowd, Garrett Marco
+          description: >
+              What's it actually like to live life around professional writing, whether you do it part- or full-time.
+          start: 3:00pm
+          end: 4:00pm
+        - name: 'Closed'
+          start: 4:00pm
+          end: 2:00am
+
+'Panel B|St. Helens D':
+    Friday:
+        - name: 'Closed'
+          start: 9:00am
+          end: 1:00pm
+        - name: 'India''s Roaring 20''s'
+          host: Leora Tria Laurino
+          description: >
+              A summary of the historic mythos of weretigers and man-eater tigers, the culture shift of tiger hunts in the 1920's, what actually led to the population crash, is there hope they will recover? [Mature content warning: Photos of dead tigers]
+          start: 1:00pm
+          end: 2:00pm
+        - name: 'Furry Parents / Parents of Furries Meetup'
+          host: Queenie
+          description: >
+              How do you navigate the world of being a furry and being a parent? Or perhaps you're the parent of a furry wanting to understand the fandom better? Come to the Furry Parent meetup to meet other furries who are parents, and to meet parents of furries who want more information about the wide and varied world of furries.
+          start: 2:00pm
+          end: 3:00pm
+        - name: 'Campfire Tails'
+          host: Boulder and Serafina
+          description: >
+              What fun you can have on Furry Road 2017!
+          start: 3:00pm
+          end: 4:00pm
+        - name: 'Mobster Talk'
+          host: Patrick
+          description: >
+              A mobster talking about what he does in the mobster life, and teaches you how to walk, talk and act like a true mobster back in the 1920's.
+          start: 4:00pm
+          end: 5:00pm
+        - name: 'Closed'
+          start: 5:00pm
+          end: 6:30pm
+        - name: 'Writing Furry'
+          host: Janene "Demi" Scott
+          description: >
+              Do you enjoy writing about your furry characters, but have no idea how to describe them going about their daily business: walking, sitting, riding the bus, etc. when they have epic tails, wings, or digitigrade legs? This is the panel for you!
+          start: 6:30pm
+          end: 7:00pm
+        - name: 'What is a Word Worth? Discussion on the Value of Writing'
+          host: RACK Leather
+          description: >
+              Fur culture has a fine appreciation for visual art of all kinds. Furries often will not balk at spending hundreds of dollars for character art from known artists. Writers however, have a much harder challenge finding people willing to pay appropriate value for their work. Why is this? This panel is an examination of writing as an art form, and why it seems to be so tough to make money in the current writing market.
+          start: 7:00pm
+          end: 8:00pm
+        - name: 'Closed'
+          start: 8:00pm
+          end: 10:00pm
+        - name: 'My lifestyle has been discovered! What do I do?'
+          host: Jessica Bunny Thomas
+          description: >
+              You have been in the closet with your lifestyle. Gay, Bi, Transgender, furry, etc. Now, someone has found out! How do you handle the situation?
+          start: 10:00pm
+          end: 11:00pm
+          mature: true
+        - name: 'Open and Polyamorous Furry Relationships 101'
+          host: Viro the Science Collie
+          description: >
+              Are you in a relationship, but thinking of adding an additional mate? Have you considered an open relationship, but weren't sure what that would mean for your existing relationship? Are you single, and considering dating a couple, or joining up with an existing pack? Come to Open and Poly Furry Relationships 101, where you will learn how to practice non-monogamy ethically, with the full & enthusiastic consent of all parties involved.
+          start: 11:00pm
+          end: 12:00am
+          mature: true
+        - name: 'Closed'
+          start: 12:00am
+          end: 2:00am
+    Saturday:
+        - name: 'Closed'
+          start: 9:00am
+          end: 10:00am
+        - name: 'Morning Meditation with the Chair'
+          host: Lumio Draco
+          description: >
+              You know what is even better then a fresh cup of coffee in the morning? How about a relaxing breathing meditation!? I know I'll be needing it, come join me. Novices to expert meditators are welcomed.
+          start: 10:00am
+          end: 11:00am
+        - name: 'Animal Aid and the Age of Purrsperity'
+          host: Paige O'Rourke, Animal Aid Director of Operations
+          description: >
+              Learn about furries of another kind: the cats and dogs of Animal Aid! Since its founding in 1969, Animal Aid has helped tens of thousands of companion animals through our rescue and adoption programs for homeless animals, through financial and volunteer support of spay/neuter efforts, and by providing funds to guardians unable to pay for urgent veterinary care.
+          start: 11:00am
+          end: 12:00pm
+        - name: 'LGBT: How can we help the youth of today?'
+          host: Gene Armstrong
+          description: >
+              Issues affecting our LGBT young people and how we can help them.
+          start: 12:00pm
+          end: 1:00pm
+        - name: 'Building Your Fursona''s Backstory'
+          host: Gene Armstrong
+          description: >
+              Now you know what your Fursona looks like, so how do they sound? Where are they from? What has molded them to become who they are today? Come explore how to make a good backstory for your fursona.
+          start: 1:00pm
+          end: 2:00pm
+        - name: 'How to Design a Character'
+          host: Kye Lan
+          description: >
+              Come join artist Kye Lan as he teaches you how to design a new character!
+          start: 2:00pm
+          end: 3:00pm
+        - name: 'Closed'
+          start: 3:00pm
+          end: 4:00pm
+        - name: 'Furrywood: Voice Acting'
+          host: Carrizo
+          description: >
+              Furrywood returns to Portland with another chance to show off your voice acting skills! In this audience participation panel, choose from a prepared stack of furry-themed scripts and perform them with other attendees. Recordings will be edited and posted on http://furrywood.com.
+          start: 4:00pm
+          end: 5:00pm
+        - name: 'Furrywood: Motion Capture'
+          host: Carrizo
+          description: >
+              Motion capture is revolutionizing computer animation by allowing characters to be moved not with a keyboard and mouse, but with an actor's entire body. At this panel, we'll learn how this technology works and even give some volunteers a chance to try out a motion capture suit!
+          start: 5:00pm
+          end: 6:00pm
+        - name: 'Closed'
+          start: 6:00pm
+          end: 8:00pm
+        - name: 'Shuttlecraft Monroe'
+          host: Gene Armstrong
+          description: >
+              Come learn about Starfleet Internetional and the new human/furry ship being formed in the PNW.
+          start: 8:00pm
+          end: 9:00pm
+        - name: 'Closed'
+          start: 9:00pm
+          end: 10:00pm
+        - name: 'BDSM Recovery, Tips and Tricks for Dealing With Drop'
+          host: RACK Leather, other adult contributors
+          description: >
+              This panel is to discuss the signs and symptoms of scene drop, what causes it, and ways you can help avoid or recover from them afterwards. We welcome folks new to kinky play and those with more experience to add their contributions, or just get a few tips and tricks that you may not have experienced before.
+          start: 10:00pm
+          end: 11:00pm
+          mature: true
+        - name: 'Bondage in Writing and Art for Furries (That Just Isn''t Possible!)'
+          host: RACK Leather, other adult contributors
+          description: >
+              Bondage art and the furry fandom go hand-in-hand. From leashes and collars to full harnesses and ropework bondage features heavily in furry artwork and writing. Furs offer the unique opportunity to draw or write adult content for people with potentially vastly different body shapes, types and musculature. It's always good to keep in mind how the human body works when dealing with bondage, so that your portrayal of bondage doesn't have folks scratching their heads and declaring "I just don't see how that is physically possible."
+          start: 11:00pm
+          end: 12:00am
+          mature: true
+        - name: 'Closed'
+          start: 12:00am
+          end: 2:00am
+    Sunday:
+        - name: 'Closed'
+          start: 9:00am
+          end: 10:00am
+        - name: 'Morning Meditation with the Chair'
+          host: Lumio Draco
+          description: >
+              You know what is even better then a fresh cup of coffee in the morning? How about a relaxing breathing meditation!? I know I'll be needing it, come join me. Novices to expert meditators are welcomed.
+          start: 10:00am
+          end: 11:00am
+        - name: 'Improv-Easy'
+          host: Roflkitten, Queenie, Seth Talon
+          description: >
+              You might think it's just an acting skill, but Improvisation can help you onstage and off it! Come along to learn how improvisation can help improve your acting, public speaking, or even just give you more confidence in everyday life. Bring yourself&mdash;and we'll do the rest! (Everyone welcome!)
+          start: 11:00am
+          end: 12:00pm
+        - name: 'Closed'
+          start: 12:00pm
+          end: 1:00pm
+        - name: 'Hiss''n''Purr (Complaints and Compliments)'
+          host: Lumio Draco, Demi
+          description: >
+              Got something you really like about Furlandia? Let us know! Got something you absolutely hated about Furlandia? Let us know! Your opinion is absolutely vital to help make Furlandia a better place in the future.
+          start: 1:00pm
+          end: 2:00pm
+        - name: 'Furocity Radio Live!'
+          host: Eaite, Twilight
+          description: >
+              What happens when you pull our DJs out of the dark depths of a radio station?  Do not stare directly at the DJs, for risk of going blind.  We'll play some games, talk with listeners on air, and who knows what else? Try not to make any sudden movements.
+          start: 2:00pm
+          end: 3:00pm
+        - name: 'Closed'
+          start: 3:00pm
+          end: 2:00am
+
+'Dealers Den|Mt Adams':
+    Friday:
+        - name: 'Closed'
+          start: 9:00am
+          end: 11:00am
+        - name: 'Dealers Den Open'
+          start: 11:00am
+          end: 6:00pm
+        - name: 'Closed'
+          start: 6:00pm
+          end: 2:00am
+    Saturday:
+        - name: 'Closed'
+          start: 9:00am
+          end: 10:00am
+        - name: 'Dealers Den Open'
+          start: 10:00am
+          end: 6:00pm
+        - name: 'Closed'
+          start: 6:00pm
+          end: 2:00am
+    Sunday:
+        - name: 'Closed'
+          start: 9:00am
+          end: 10:00am
+        - name: 'Dealers Den Open'
+          start: 10:00am
+          end: 5:00pm
+        - name: 'Closed'
+          start: 5:00pm
+          end: 2:00am
+
+'Photo Station|Cascade A':
+    Friday:
+        - name: 'Closed'
+          start: 9:00am
+          end: 12:00pm
+        - name: 'Photo Station Open'
+          start: 12:00pm
+          end: 6:00pm
+        - name: 'Closed'
+          start: 6:00pm
+          end: 2:00am
+    Saturday:
+        - name: 'Closed'
+          start: 9:00am
+          end: 12:00pm
+        - name: 'Photo Station Open'
+          start: 12:00pm
+          end: 6:00pm
+        - name: 'Closed'
+          start: 6:00pm
+          end: 2:00am
+    Sunday:
+        - name: 'Closed'
+          start: 9:00am
+          end: 12:00pm
+        - name: 'Photo Station Open'
+          start: 12:00pm
+          end: 5:00pm
+        - name: 'Closed'
+          start: 5:00pm
+          end: 2:00am
+
+'Fursuit Lounge|Cascade B & C':
+    Friday:
+        - name: 'Closed'
+          start: 9:00am
+          end: 12:00pm
+        - name: 'Fursuit Lounge Open'
+          start: 12:00pm
+          end: 12:00am
+        - name: 'Closed'
+          start: 12:00am
+          end: 2:00am
+    Saturday:
+        - name: 'Closed'
+          start: 9:00am
+          end: 12:00pm
+        - name: 'Fursuit Lounge Open'
+          start: 12:00pm
+          end: 12:00am
+        - name: 'Closed'
+          start: 12:00am
+          end: 2:00am
+    Sunday:
+        - name: 'Closed'
+          start: 9:00am
+          end: 10:00am
+        - name: 'Fursuit Lounge Open'
+          start: 10:00am
+          end: 6:00pm
+        - name: 'Closed'
+          start: 6:00pm
+          end: 2:00am
+
+'Main Theater|Mt Hood':
+    Friday:
+        - name: 'Closed'
+          start: 9:00am
+          end: 5:00pm
+        - name: 'Opening Ceremonies'
+          host: Queenie, Kako
+          description: >
+              Come join your fellow furs in the starting of another exciting year at Furlandia!
+          start: 5:00pm
+          end: 6:30pm
+          streamed: true
+          streamInfo:
+              name: Furlandia 2017 Opening Ceremonies
+              startDate: "2017-05-26T17:00:00-07:00"
+              endDate: "2017-05-26T18:30:00-07:00"
+        - name: 'DJ Clinic'
+          host: Jumpiicat
+          start: 7:00pm
+          end: 8:00pm
+        - name: 'Closed'
+          start: 8:00pm
+          end: 9:00pm
+        - name: 'Dance'
+          host: Jumpiicat
+          description: >
+              Come dance your tail off at the official Furlandia Evening Dance! Fursuits not required!
+          start: 9:00pm
+          end: 2:00am
+    Saturday:
+        - name: 'Closed'
+          start: 9:00am
+          end: 12:00pm
+        - name: 'Fox Amoore and Pepper Coyote - Live On Stage'
+          host: Fox Amoore and Pepper Coyote
+          description: >
+              Join us for an afternoon of the musical stylings of our two musical Guests of Honor Fox Amoore & Pepper Coyote, both very well-renowned musicians in the community. You won’t want to miss this show!
+          start: 12:00pm
+          end: 2:00pm
+          streamed: true
+          streamInfo:
+              name: Foxes and Peppers Live On Stage at Furlandia 2017
+              startDate: "2017-05-27T12:00:00-07:00"
+              endDate: "2017-05-27T14:00:00-07:00"
+        - name: 'Closed'
+          start: 2:00pm
+          end: 3:30pm
+        - name: 'Fursuit Parade Lineup'
+          start: 3:30pm
+          end: 4:00pm
+        - name: 'Fursuit Parade'
+          host: Queenie
+          description: >
+              Get your stompin' feet on and come join the fun as we march around the hotel!
+          start: 4:00pm
+          end: 4:30pm
+        - name: 'Closed'
+          start: 4:30pm
+          end: 6:00pm
+        - name: 'Dance Competition Preliminaries'
+          description: >
+              Come watch our contestants compete for a spot in our 2017 fursuit dance competition!
+          start: 6:00pm
+          end: 8:00pm
+        - name: 'Closed'
+          start: 8:00pm
+          end: 3:00pm
+        - name: 'Dance'
+          host: Jumpiicat
+          description: >
+              Come dance your tail off at the official Furlandia Evening Dance! Fursuits not required!
+          start: 9:00pm
+          end: 2:00am
+    Sunday:
+        - name: 'Closed'
+          start: 9:00am
+          end: 10:00am
+        - name: 'Fursuit Games'
+          host: Kako
+          description: >
+              Put your fursuit on and come play games with us!
+          start: 10:00am
+          end: 12:00pm
+        - name: 'Closed'
+          start: 12:00pm
+          end: 1:00pm
+        - name: 'Dance Competition Finals'
+          description: >
+              This is it. Watch now as our finalists compete for the title of Top Dog/Cat’s Meow!
+          start: 1:00pm
+          end: 3:00pm
+        - name: 'Closed'
+          start: 3:00pm
+          end: 4:00pm
+        - name: 'Closing Ceremonies'
+          host: Queenie, Kako
+          description: >
+              Join us and say goodbye to one another as we pack the con away until next year.
+          start: 4:00pm
+          end: 5:30pm
+          streamed: true
+          streamInfo:
+              name: Furlandia 2017 Closing Ceremonies
+              startDate: "2017-05-28T16:00:00-07:00"
+              endDate: "2017-05-28T17:30:00-07:00"
+        - name: 'Closed'
+          start: 5:30pm
+          end: 2:00am
+
+'Registration|Garden Foyer':
+    Friday:
+        - name: 'Registration Open'
+          start: 10:00am
+          end: 9:00pm
+        - name: 'Closed'
+          start: 9:00pm
+          end: 2:00am
+    Saturday:
+        - name: 'Registration Open'
+          start: 10:00am
+          end: 9:00pm
+        - name: 'Closed'
+          start: 9:00pm
+          end: 2:00am
+    Sunday:
+        - name: 'Registration Open'
+          start: 10:00am
+          end: 2:00pm
+        - name: 'Pre Registration Open'
+          description: >
+              Be the first of your friends to sign up for next year’s fun! People who pre-register and pre-pay get a significantly reduced rate!
+          start: 2:00pm
+          end: 6:00pm
+        - name: 'Closed'
+          start: 6:00pm
+          end: 2:00am
+
+'Con Office|Garden A':
+    Friday:
+        - name: 'Operations Open'
+          start: 9:00am
+          end: 2:00am
+    Saturday:
+        - name: 'Operations Open'
+          start: 9:00am
+          end: 2:00am
+    Sunday:
+        - name: 'Operations Open'
+          start: 9:00am
+          end: 6:00pm
+
+'Games|Garden B & C':
+    Friday:
+        - name: 'Closed'
+          start: 9:00am
+          end: 11:00am
+        - name: 'Open Gaming ft. Special Guest: Epic Gaming'
+          host: Epic Gaming
+          description: >
+              This weekend Epic Gaming will be hosting Furlandia's Tabletop Gaming Library, in addition to Sanctioned Magic Draft Flights, On-Demand Commander Pods, and our Modern & Retro Console Gaming Arcade. Scheduled and impromptu tournament signups are posted in Gaming! And of course, free-play time and space.
+          start: 11:00am
+          end: 11:00pm
+        - name: 'Closed'
+          start: 11:00pm
+          end: 2:00am
+    Saturday:
+        - name: 'Closed'
+          start: 9:00am
+          end: 11:00am
+        - name: 'Open Gaming ft. Special Guest: Epic Gaming'
+          host: Epic Gaming
+          description: >
+              This weekend Epic Gaming will be hosting Furlandia's Tabletop Gaming Library, in addition to Sanctioned Magic Draft Flights, On-Demand Commander Pods, and our Modern & Retro Console Gaming Arcade. Scheduled and impromptu tournament signups are posted in Gaming! And of course, free-play time and space.
+          start: 11:00am
+          end: 11:00pm
+        - name: 'Closed'
+          start: 11:00pm
+          end: 2:00am
+    Sunday:
+        - name: 'Closed'
+          start: 9:00am
+          end: 11:00am
+        - name: 'Open Gaming ft Special Guest: Epic Gaming'
+          host: Epic Gaming
+          description: >
+              This weekend Epic Gaming will be hosting Furlandia's Tabletop Gaming Library, in addition to Sanctioned Magic Draft Flights, On-Demand Commander Pods, and our Modern & Retro Console Gaming Arcade. Scheduled and impromptu tournament signups are posted in Gaming! And of course, free-play time and space.
+          start: 11:00am
+          end: 6:00pm
+        - name: 'Closed'
+          start: 6:00pm
+          end: 2:00am
+
+'Parking Lot':
+    Sunday:
+        - name: 'MotoFur Meet'
+          host: Queenie
+          description: Come check out some fancy sets of wheels and talk shop with the furs that own them.
+          start: 12:00pm
+          end: 1:00pm

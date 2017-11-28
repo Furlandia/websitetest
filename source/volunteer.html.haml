@@ -1,0 +1,18 @@
+---
+title: Volunteer
+---
+
+.text-center
+  = link_to 'Volunteer', data.volunteer.form, class: 'btn-register', target: '_blank', rel: 'noopener noreferrer'
+
+%h2 Volunteer
+
+%p= data.volunteer.blurb
+
+%h3 Current Open Positions
+
+- data.volunteer.positions.each do |department, names|
+  %h4= department
+  %ul
+    - names.each do |name|
+      %li= name

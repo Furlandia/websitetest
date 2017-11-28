@@ -1,0 +1,12 @@
+<%=
+    mature_events = {}
+    data.schedule.each do |room, days|
+        days.each do |day, events|
+            events.each do |event|
+                mature_events[event_id(event)] = event if event[:mature]
+            end
+        end
+    end
+    mature_events.to_json
+%>
+

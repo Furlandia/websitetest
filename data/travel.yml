@@ -1,0 +1,302 @@
+sections:
+- name: Landmarks
+  anchor: landmarks
+  items:
+    - name: Portlandia
+      address: "1120 SW 5th Ave"
+      image: travel/portlandia.png
+      description: |
+        The star of the city has to be the statue of *Portlandia*, installed in 1985
+        above the west entrance of the Portland Building (1120 SW 5th Ave).
+        The huge statue is the 2nd-largest copper repouss&#233; statue in the world
+        after the Statue of Liberty. The easiest way to get there is to take the
+        southbound MAX to SW Jefferson and SW 5th Ave. For the best view, cross
+        the street to the Standard Plaza Building and ride the elevator up one
+        floor.
+        The statue is based on the seal of the city of Portland, and
+        both the architect Michael Graves and the sculptor Raymond Kaskey won
+        awards for the Portland Building and its "Copper Goddess", respectively.
+      website: https://oregonencyclopedia.org/articles/portlandia/#.V-m6D_ArJ9M
+
+    - name: Big Pink
+      address: "111 SW 5th Ave"
+      image: travel/big-pink.png
+      description: |
+        The most striking features of the U.S. Bancorp Tower,
+        affectionately referred to by the locals as "Big Pink", are its
+        unusual shape and color. Because of the street grid, the tower features no
+        right angles in its footprint, which makes it
+        look either very slender or rather wide depending upon your viewing
+        angle. The pink granite covering the building was quarried in Spain,
+        and the glass used for the windows is also pink when viewed from outside
+        because of its semi-transparent coating of copper and silver.
+        Both the windows and the surrounding granite may appear darker or lighter
+        depending upon the time of day.
+      website: https://www.emporis.com/buildings/122608/us-bancorp-tower-portland-or-usa
+
+    - name: Pioneer Courthouse Square
+      address: "701 SW Sixth Ave"
+      description: |
+        <img class="travel-img" src="img/travel/umbrella-man.png" alt="Allow Me (Umbrella Man)">
+
+        Also known as *Portland's living room*, Pioneer Square is a public
+        space occupying a full 40,000-square-foot city block in the center
+        of downtown Portland. One of the more recognized pieces of public
+        art in Portland is Seward Johnson's *Allow Me*, referred to by the
+        locals as *Umbrella Man*. The bronze statue of a man in a business
+        suit holding an umbrella is on the south side of the square, just above
+        the amphitheater.
+
+        <a href="img/travel/weather-machine.png" target="_blank">*Weather Machine*</a>
+        is a 33 foot (10 m) tall metal column topped with a
+        large silver orb, installed in August 1988. Light bulbs on the side of
+        the machine light up progressively as the temperature increases, and
+        at noon each day the next day's weather forecast is announced with a
+        fanfare of trumpets, flashing lights, and a spray of mist. The orb opens
+        to reveal one of the following:
+
+        * a golden leaf sun, for a clear day;
+        * a silver great blue heron, to forecast a drizzly, misty, or overcast day;
+        * an open-mouthed copper dragon, when storms are forecast.
+
+        Dozens of all-ages events are held at the square each year, including free shows
+        during spring and summer sponsored by local businesses.
+        In 2006, the square was the site of
+        an all-city pillow fight, and later an all-city slumber party. Pioneer
+        Courthouse Square is also a venue for speeches, political demonstrations,
+        rallies and vigils. On your visit to the Square, check out the paving
+        bricks&mdash;they bear the names of the donors who contributed to the
+        remodel of the site.
+      website: https://thesquarepdx.org/
+
+    - name: Powell's City of Books
+      address: "1005 W Burnside St"
+      image: travel/powells.png
+      description: |
+        Powell's Books is a chain of bookstores in Portland, Oregon and
+        the surrounding metropolitan area. Powell's headquarters, dubbed
+        **Powell's City of Books**, claims to be the largest independent new and
+        used bookstore in the world. It is located in the
+        Pearl District on the edge of downtown, where it occupies a full city block
+        between NW 10th and 11th Avenues and between W Burnside and NW Couch
+        Streets (Couch is pronounced "Cooch", by the way). It contains
+        over 68,000 square feet (about 1.6 acres) of retail floor space.
+        According to <a href="https://en.wikipedia.org/wiki/Powell's_Books" target="_blank" rel="noopener noreferrer">Wikipedia</a>, CNN
+        rates it <a href="http://edition.cnn.com/2014/07/23/travel/worlds-coolest-bookstores/index.html" target="_blank" rel="noopener noreferrer">one of the ten "coolest" bookstores in the world</a>.
+
+        The inventory for its retail and online sales is over four million
+        new, used, rare, and out-of-print books. Powell's buys around 3,000
+        used books a day. They also have a coffee shop!
+
+        For a smaller taste of Powell's, there is a branch down the street
+        at 7000 NE Airport Way, Suite 2250 Portland, OR 97218
+      website: http://www.powells.com/locations/powells-city-of-books
+
+- name: Public transit
+  anchor: transit
+  text: |
+    <img class="travel-img" src="img/travel/trimet.png" alt="TriMet logo">
+
+    Guests of The Airport Sheraton can take the free hotel shuttle to
+    Cascade Station, which features over a dozen specialty eateries and
+    restaurants including: Buffalo Wild Wings, Panda Express, Famous
+    Dave's BBQ, Red Robin, Starbucks, Jersey Mike's Subs and ParkStone
+    Wood Kitchen + Taps. The shuttle can also take you to the Super
+    Target for your shopping needs, as well as to the light rail station
+    at the airport. From the airport you can take the Max/Tri-Met to
+    anywhere you wanna go! For maps and schedules regarding our fine
+    public transportation, please check out their website at <a href="http://trimet.org" target="_blank" rel="noopener noreferrer">trimet.org</a>,
+    or dial [503-238-RIDE (7433)](tel:15032387433).
+
+- name: Breweries
+  anchor: breweries
+  text: |
+    Remember when we said Portland is called Bridgetown and Rose City? Our
+    other nickname is Beertown, and for good reason! **Brew pubs** have long
+    been a substantial and important part of Portland's nightlife. The
+    city currently has over 70 microbreweries and that number continues
+    to rise. Portland is often considered to be the Beer Capital of the
+    World! Many of Portland's breweries have become famous for their
+    beers, shipping them all over the globe. Each Portland brew
+    pub is unique and has its own theme and dynamic, but here are the
+    top ten, according to <a href="http://www.10best.com/destinations/oregon/portland/nightlife/brew-pubs/" target="_blank" rel="noopener noreferrer">USA Today</a>:
+
+  items:
+    - name: Fat Head's Brewery
+      image: travel/fat-head.png
+      description: |
+        Fat Head's Brewery is one of the newest breweries in Portland. They
+        features 25 beers on tap including 13 of their own craft beers and 11
+        guest beers on tap from around the Portland area. The food is just
+        as good as their beer. Locals tend to love their pita bread made
+        from pizza dough. If you like soft pretzels you will flip over their
+        giant pretzel that comes with three dips: beer cheese, spicy mustard,
+        and honey mustard. Happy hour is Sunday through Thursday from 3 -
+        6 PM and again from 9 PM - close. ([(503) 820-7721](tel:15038207721))
+      website: http://fatheadsportland.com/
+
+    - name: Oregon Public House
+      image: travel/oregon-public-house.png
+      description: |
+        Oregon Public House has successfully combined two of Oregonians
+        favorite things good beer and supporting charitable causes. The Oregon
+        Public House serves a variety of food including vegetarian options. On
+        tap you will find 12 beers including some gluten-free varieties. They
+        have a rotating list of charities they support including the following:
+        Friends of the Children, Friends of Trees, The Neo Fund, My Voice
+        Music, Portland Opportunities Industrialization Center, Black United
+        Fund, Habitat for Humanity, and Compassion First. Customers will
+        have a chance to decide where the proceeds of their food and drink
+        purchase go to from a short list of local charities. ([(503) 828-0884](tel:15038280884))
+      website: http://oregonpublichouse.com/
+
+    - name: Kells Brew Pub
+      image: travel/kells.png
+      description: |
+        Kells Irish Pub joined Portland's craft beer scene last year when
+        they opened their own brewery, Kells Brew Pub. Their new relaxed
+        location includes an onsite brewery, a family-friendly restaurant,
+        and a bar. Currently they offer three of their own craft beers,
+        Irish lager, IPA, and Irish Red Ale. They also serve Guinness. They
+        continue the tradition of serving Irish/English food like Shepard's
+        Pie, Fish and Chips, and Lamb Stew as well as some American favorites,
+        like nachos. On the weekends they open early for breakfast. Happy
+        hour is every day except Saturdays. It's not unusual for there to be
+        live music. ([(503) 719-7175](tel:15037197175))
+      website: http://www.kellsbrewpub.com/
+
+    - name: Laurelwood NW Public House
+      image: travel/laurelwood.png
+      description: |
+        Laurelwood Public House and Brewery, also known as Laurelwood Brewery,
+        is an relaxed brew pub for anyone, including families. Not only
+        is their food and micro beers delicious, but it's all certified
+        organic and free range. Laurelwood brews their own organic beers
+        and often offer unique seasonal beers, with at least have ten of
+        their beers on tap. For families Laurelwood Brewery has assorted
+        play areas sprinkled throughout the restaurant that kids will
+        love. Laurelwood offers a large happy hour menu daily from 3-6 PM
+        and 9 PM - close. On the weekends Laurelwood opens at 10 AM for their
+        delicious brunch. ([(503) 282-0622](tel:15032820622))
+      website: http://www.laurelwoodbrewpub.com/
+
+    - name: Lucky Labrador Brew Pub
+      image: travel/lucky-labrador.png
+      description: |
+        Started in 1994 by two friends that grew up here in Portland, Lucky
+        Labrador brews their craft beers from solar thermal water heating and
+        without carbon dioxide. This microbrewery, along with its three other
+        locations here in Portland, is a fun place to go for house-brewed beers
+        and delicious sandwiches. The crowd tends to be the upwardly mobile
+        young professionals ready to slake their seemingly endless thirst
+        with tasty selections like Black Lab Stout, Stumptown Porter and
+        Dog Day India Pale Ale. The pub occupies an old warehouse, sporting
+        exposed wood beams, skylights and wood flooring. An outdoor patio is
+        the ideal setting during warm weather months and it's pet friendly,
+        too. ([(503) 236-3555](tel:15032363555))
+      website: http://www.luckylab.com/
+
+    - name: Hopworks Bikebar
+      image: travel/hopworks.png
+      description: |
+        In 2011 Hopworks Urban brewery expanded by opening another
+        environmentally-conscious brew pub, Hopworks Bikebar, a bicycle themed
+        brew pub. They offer organic beer and fresh organic food in a family
+        friendly atmosphere. Here you can sit in one of four sections, the
+        family section with a play area, an outdoor beer garden, the bicycle
+        bar, or the east section overlooking Williams. Hopworks BikeBar stays
+        true to its name by offering 75 bike parking spaces, bike tools, take
+        out specials for bikers, and two stationary bicycles in front of the
+        restaurant that create energy to power the building when customers
+        pedal them. ([(503) 287-6258](tel:15032876258))
+      website: http://www.hopworksbeer.com/
+
+    - name: Deschutes Brewery
+      image: travel/deschutes.png
+      description: |
+        Deschutes Brewery brings the Scottish pub to the Northwest over in
+        the Pearl District. They have 18 beers on tap which include Deschutes
+        mainstays, experimental beers, and seasonal ales. Deschutes Brewery is
+        best known for their Mirror Pond Pale Ale and Black Butte Porter. They
+        take pride in not only offering good beers, but equally good food. The
+        food is locally sourced, often organic, and prepared fresh daily. They
+        offer interesting food like deviled eggs, elk burgers, apple red
+        onion tart, and rootbeer braised pork belly. Deschutes Brewery has
+        happy hour Monday - Friday from 4 to 6 PM. ([(503) 296-4906](tel:15032964906))
+      website: https://www.deschutesbrewery.com/
+
+    - name: "10 Barrel Brewing Co."
+      image: travel/10barrel.png
+      description: |
+        10 Barrel Brewing Co. opened a Portland location in the Pearl District
+        in 2015 after getting its start in Bend, Oregon a decade ago and
+        eventually joining the Budweiser family. Their Portland location
+        atmosphere features high ceilings and a comfortable open air concept
+        that's killer on a nice day. Even better on a nice day is their rooftop
+        bar. 10 Barrel Brewing Co. has twenty beers on tap that rotate on a
+        regular bases and is always a nice variety including hard ciders. The
+        food here is just as good as the atmosphere, including some of the
+        best pizzas in Portland. ([(503) 224-1700](tel:15032241700))
+      website: http://www.10barrel.com/
+
+    - name: Rogue Distillery and Public House
+      image: travel/rogue.png
+      description: |
+        Rogue brewery is located in the heart of Portland's Historic Brewing
+        District in the Pearl, this location is the inside the former
+        home of Portland Brewing and Bogart's, a long-time institution in
+        Portland. They feature Rogue spirits and beers, distillery tours,
+        outside seating, and pizza & beer delivery. They have 38 taps that
+        include a selection of unique limited-release beers you can only
+        find at this Rogue pub. Dogs are allowed to hang out here with you
+        and they even have their own menu and enjoy free water. The best part
+        is they are open 365 days a year. ([(503) 222-5910](tel:15032225910))
+      website: http://www.rogue.com/
+
+    - name: BridgePort BrewPub
+      image: travel/bridgeport.png
+      description: |
+        Oregon's oldest craft brewery, The Bridgeport brewpub is housed in one
+        of Portland's oldest industrial buildings. Covered in ivy, the brick
+        Cordage Company building was erected in 1886. Since 1984 it has been
+        the home both of BridgePort's brewhouse and restaurant. Artisan pizzas
+        made in wood-fired ovens are the perfect companion to BridgePort's
+        signature draft beers. The food they serve is not your typical pub
+        food. Their chili verde is the best in Portland. Whether you sit
+        downstairs or upstairs there are televisions for you to watch sports
+        on. Located in Portland's trendy Pearl District, the brewpub is a
+        great destination after the First Thursday Art Walk. ([(503) 241-3612](tel:15032413612))
+      website: http://www.bridgeportbrew.com/
+
+- name: Parks
+  anchor: parks
+  items:
+    - name: Waterfront Park
+      image: travel/waterfront-park.png
+      description: |
+        Want to take a stroll down the riverfront while you are here? Then
+        you should visit Waterfront Park! Governor Tom McCall Waterfront
+        Park is a 36.59-acre park located in downtown Portland, Oregon,
+        along the Willamette River. It is currently home to the **Waterfront
+        Blues Festival**, **Oregon Brewers Festival**, **Gay/Lesbian Pride
+        Festival**, and the **Bite of Oregon festival**. The park is also the
+        host of many <a href="http://www.rosefestival.org" target="_blank" rel="noopener noreferrer">Rose Festival</a> events.
+        Speaking of the Rose festival,
+        it starts around Memorial Day weekend, so you might catch a little
+        of it if you try!
+
+        While you are at Waterfront Park, don't forget to check out our famous
+        <a href="http://www.portlandsaturdaymarket.com/home/" target="_blank" rel="noopener noreferrer">Saturday Market</a>!
+
+        Founded in 1974, Portland Saturday Market is located in Waterfront Park
+        and Ankeny Plaza in Portland's historic Old Town. The Market is one of
+        the most popular tourist attractions in Portland, drawing an estimated
+        one million people and generating annual sales of around $10 million.
+        Everything at the Market is handcrafted by the vendors and is sold by
+        the person who made it. The Market offers a unique opportunity for
+        customers to meet the artists and often to see the pieces being made
+        right in the booths. The Portland Saturday Market's hours are Saturday
+        from 10:00am to 5:00pm and Sunday from 11:00 to 4:30pm. Admission is
+        free, and the food is amazing!
+      website: https://www.portlandoregon.gov/parks/finder/index.cfm?action=viewpark&propertyid=156
+    

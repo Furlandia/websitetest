@@ -1,0 +1,36 @@
+%section.jumbotron
+  .container
+    .jumbotron-title
+      %h1= friendly_linebreaks(data.home.title, ':')
+    .countdown
+    .jumbotron-description
+      %p.text-center
+        = data.home.description
+      %p
+        = link_to 'Schedule', 'schedule.html', class: 'btn btn-register btn-huge'
+        = link_to 'LIVE', 'https://www.youtube.com/c/Furlandia/live', class: 'btn btn-register btn-huge'
+
+%section.container.top
+  %section.col-md-8.col-sm-8.news-top
+    - blog.articles.each do |article|
+      %article.panel.panel-default
+        %header.panel-heading
+          %h3= link_to article.title, article.url
+        .panel-body
+          - if article.body.length > article_cutoff
+            = "#{article.body[0..article_cutoff]}..."
+            %br
+            %br
+            = link_to 'Read More', article.url, class: 'btn btn-primary'
+          -else
+            = article.body
+          - if article.data.author
+            %footer
+              \-
+              = article.data.author
+              on
+              = article.date.strftime('%-m/%-d/%y')
+
+    %img{src: 'img/artwork.png', alt: 'Furlandia', style: 'width: 100%; margin-bottom: 48px;'}
+
+  = partial 'twitter'

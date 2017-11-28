@@ -1,0 +1,30 @@
+!!!
+%html{lang: 'en'}
+  %head
+    %meta{charset: 'utf-8'}
+    %title= "Furlandia #{current_year}"
+    %meta{'http-equiv' => 'X-UA-Compatible', content: 'IE=edge'}
+    %meta{name: 'viewport', content: 'width=device-width, initial-scale=1'}
+    %title
+      = "Furlandia #{current_year}"
+      - if current_page.data.title
+        = " - #{current_page.data.title}"
+    = stylesheet_link_tag '//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'
+    = stylesheet_link_tag 'https://fonts.googleapis.com/css?family=Poiret+One'
+    = stylesheet_link_tag 'vendor/flipclock'
+    = stylesheet_link_tag '//fonts.googleapis.com/icon?family=Material+Icons'
+    = stylesheet_link_tag 'site'
+    = google_analytics_tag
+    - if content_for?(:assets)
+      = yield_content :assets
+  %body
+    = partial 'navigation'
+    = partial 'header'
+    .section-wrapper
+      = yield
+    = partial 'footer'
+
+    = javascript_include_tag 'site'
+    /[if lt IE 9]
+      = javascript_include_tag 'vendor/html5shiv'
+      = javascript_include_tag 'vendor/respond'

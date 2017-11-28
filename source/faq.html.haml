@@ -1,0 +1,11 @@
+---
+title: Frequently Asked Questions
+---
+
+%h2 Frequently Asked Questions
+%p= "#{markdown(data.faq.blurb)}"
+
+- data.faq.questions.each do |faq|
+  %p
+    %strong= "Q: #{faq.Q}"
+  %p= "A: #{markdown(faq.A)}"

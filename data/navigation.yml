@@ -1,0 +1,57 @@
+title: Furlandia 2017 May 26-28
+menu:
+    Attend:
+        Registration: registration.html
+        Hotel: hotel.html
+        Travel: travel.html
+        Code of Conduct: conduct.html
+        FAQ: faq.html
+        About Us: about.html
+    Discover:
+        Events: events.html
+        Dealers: dealers.html
+        Artist Alley: artist-alley.html
+        Guests: goh.html
+        Schedule: schedule.html
+        LIVE: live.html
+    Participate:
+        Host A Panel: panels.html
+        DJ Applications: dj-applications.html
+        Furlandia Showcase: showcase.html
+        Dance Competition: dance-comp.html
+    Volunteer:
+        Conbook Submissions: conbook.html
+        Staffing: volunteer.html
+        Meetings: meetings.html
+        Contact Us: contact.html
+
+social:
+    Twitter:
+        link: https://twitter.com/Furlandia
+        icon: twitter
+    Facebook:
+        link: https://www.facebook.com/Furlandia
+        icon: facebook
+    FurAffinity:
+        link: http://www.furaffinity.net/user/furlandia
+        icon: paw
+    Vine:
+        link: https://vine.co/Furlandia
+        icon: vine
+    Instagram:
+        link: https://instagram.com/furlandiapdx
+        icon: instagram
+    Telegram:
+        link: https://telegram.me/furlandia
+        icon: paper-plane
+    Tumblr:
+        link: http://furlandiapdx.tumblr.com/
+        icon: tumblr
+
+ads:
+    left:
+        Vancoufur:
+            link: http://www.vancoufur.ca/
+            image: vancoufur.gif
+    right:
+

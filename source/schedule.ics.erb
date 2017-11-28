@@ -1,0 +1,26 @@
+<%=
+dates = {'Friday' => 27, 'Saturday' => 28, 'Sunday' => 29}
+cal = Icalendar::Calendar.new
+data.schedule.each do |room, days|
+  days.each do |day, events|
+    events.each do |event|
+      split = room.split('|')
+      next if event.name == 'Closed'
+      cal.event do |e|
+        incr_start = event.start.include?('am') && event.start.split(':')[0].to_i < 6 ? 1 : 0
+        incr_end = event.end.include?('am') && event.end.split(':')[0].to_i < 6 ? 1 : 0
+        start = "May #{dates[day] + incr_start} #{current_year} #{event.start}"
+        stop = "May #{dates[day] + incr_end} #{current_year} #{event.end}"
+        e.dtstart       = DateTime.parse(start)
+        e.dtend         = DateTime.parse(stop)
+        e.summary       = event.name
+        e.location      = split.length > 1 ? "#{split[0]} (#{split[1]})" : split[0]
+        e.description   = ''
+        e.ip_class      = 'PUBLIC'
+        e.last_modified = DateTime.now
+      end
+    end
+  end
+end
+cal.to_ical
+%>

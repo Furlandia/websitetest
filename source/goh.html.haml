@@ -1,0 +1,25 @@
+---
+title: Guests of Honor
+---
+
+%h2 Guests of Honor
+
+%p= markdown(data.goh.blurb)
+
+.goh
+  - data.goh.guests.each_with_index do |goh,i|
+    .media
+      %h3.media-heading= goh.name
+      - if goh.photo
+        = image_tag goh.photo, class: 'goh-img'
+      .media-body
+        = markdown(goh.bio)
+        %p.goh-social
+          - if goh.url
+            - goh.url.each do | kind, url |
+              - if data.goh.icons.include?(kind)
+                = link_to url, target: '_blank', rel: 'noopener noreferrer' do
+                  = image_tag data.goh.icons[kind], alt: kind, resize_to: '24x24', class: 'social-icon'
+                  = kind
+              - else
+                = link_to kind, url, target: '_blank', rel: 'noopener noreferrer'

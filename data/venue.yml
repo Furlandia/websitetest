@@ -1,0 +1,208 @@
+conduct: |
+  Like any convention, the way our attendees treat the hotel reflects the
+  convention itself. And that means if our attendees don't respect the hotel,
+  we won't be welcomed back. To ensure that doesn't happen, we ask that all
+  guests use some basic common sense during their stay at the hotel and treat
+  all staff, guests, and convention attendees with respect and dignity, as well
+  as ensuring that all hotel and convention property is treated with an equal
+  amount of respect.
+
+  In short:
+
+  * Be courteous to housekeeping, clean up after yourself, and remember to tip!
+  * Treat the hotel and its staff with respect. Do not break anything or cause
+    damage to hotel property.
+  * Obey the hotel's no-smoking and no-vaping policy. Smoke only in designated
+    outside areas, which are clearly marked. If you smoke in or damage your room,
+    you'll be charged for it.
+  * Do not bring illegal substances or engage in illegal activities on hotel
+    grounds or in convention space.
+  * Do not bring weapons of any kind onto hotel grounds or into convention
+    space.
+
+  Simply put, we're asking you to follow standard hotel rules. Here at
+  Furlandia, we view these rules as mandatory, not optional. If you're removed
+  from the property or you violate hotel rules, you'll lose your convention
+  membership.
+
+hotels:
+- name: Aloft Portland Airport at Cascade Station
+  anchor: aloft
+  url: https://www.starwoodmeeting.com/Book/Furlandia
+  telephone:
+    linkText: "(503) 200-5678"
+    url: "tel:15032005678"
+  postalAddress:
+    streetAddress: "9920 NE Cascades Parkway"
+    addressLocality: Portland
+    addressRegion: OR
+    postalCode: "97220"
+  mapurl: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4696.891517931939!2d-122.56541120571909!3d45.574693522110614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9c533d43a2c7162c!2sAloft+Portland+Airport+at+Cascade+Station!5e0!3m2!1sen!2sus!4v1489811630972
+  content: |
+    Situated on a short ride from Portland International Airport (PDX), the
+    **Aloft Portland Airport at Cascade Station** is situated at Cascade
+    Station, a short ride by complimentary shuttle bus from our main convention
+    space at the **Sheraton Portland Airport Hotel**. Like our main hotel,
+    there's a 24-hour complimentary shuttle service to PDX and its
+    <a href="http://trimet.org/ride/stop.html?stop_id=10576" target="_blank" rel="noopener noreferrer">TriMet</a>
+    light rail connection, and of course, benefits from the same close proximity
+    to 
+    <a href="https://goo.gl/maps/ymHwt3CXFJA2" target="_blank" rel="noopener noreferrer">Interstate 205</a>.
+
+    ### Why You Should Book a Room
+
+    <img class="flavor-img" src="img/aloftportland_aiport_at_cascade.jpg">
+
+    The **Aloft Portland Airport at Cascade Station** is a modern,
+    well-equipped hotel with all of the amenities that you'd expect. These
+    include:
+
+    * Free Wi-Fi in guest rooms.
+    * Free Shuttle to Airport terminal and MAX Light Rail
+    * Free Shuttle to Main Convention Hotel (Sheraton Portland Airport Hotel)
+    * On-Site ATM
+    * re:charge (SM)gym
+    * Re:mix(SM) lounge
+    * Splash indoor pool
+    * Games and TVs in Lobby
+    * Pool Table
+    * Touch & go check-in kiosks
+    * Camp Aloft for kids
+    * 24-Hour Front Desk
+    * Snack Shop
+    * Safety Deposit Box
+    * Free on-site parking
+    * Braille Elevators
+    * Disability Accessible Facilities
+    * 100% no-smoking policy throughout the hotel
+    * Laundry/Valet Service
+
+    Staying at the **Aloft Portland Airport at Cascade Station** means you
+    are a short ride from where all the action is happening, so you don't
+    have to drive anywhere or even walk that far&mdash;and the complimentary
+    bus ride to our main hotel runs frequently too, so you won't miss out
+    on the fun! Our specially-negotiated convention rates (see below) also
+    help you save money.
+
+    Those with four-legged friends will be pleased to know the **Aloft Portland
+    Airport at Cascade Station** is dog-friendly, with dogs under 40 pounds
+    welcome to stay at the hotel for free. Guests are of course responsible
+    for clearing up after their pets both inside and outside of the hotel, as
+    well as covering any damages caused by their pet during their stay. Pets
+    over 40 pounds may be accepted at the hotel’s discretion, but the
+    hotel asks you to contact them at [(503) 200-5678](tel:15032005678)
+    ahead of your stay to discuss your needs.
+
+  pricing: |
+    For **Furlandia 1929: Age of Prosperity!** we've negotiated some great
+    discounted rates for convention attendees.
+
+    These rates will be available from **May 24** to **May 30**.
+
+    <u>Double Queen</u>
+
+    * 1 guest: $135
+    * 2 guests: $135
+    * 3 guests: $145
+    * 4 guests: $155
+
+    Maximum occupancy per room is four (4) guests.
+    **Bookings must be made by May 5 5:00pm PDT to ensure the rates listed above.**
+    Rates are non-commissionable and do not include applicable state and local
+    taxes, currently 15.3%.
+
+    If you're a regular to hotels within the Starwood Hotel group, you'll
+    be pleased to know that Starwood Preferred Guest reward program
+    members can earn points during their stay at **Furlandia 1929:
+    Age of Prosperity!** Those who are not yet members can register at
+    the point of booking or check-in to become Starwood Preferred Guest
+    members. For more information on the program and its benefits, visit
+    <a href="http://starwoodhotels.com/preferredguest/" target="_blank" rel="noopener noreferrer">http://starwoodhotels.com/preferredguest/</a>
+
+- name: Sheraton Portland Airport Hotel
+  anchor: sheraton
+  sold_out: true
+  telephone:
+    linkText: "(503) 281-2500"
+    url: "tel:15032812500"
+  postalAddress:
+    streetAddress: "8235 NE Airport Way"
+    addressLocality: Portland
+    addressRegion: OR
+    postalCode: "97220"
+  mapurl: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22342.018480764837!2d-122.56823318236232!3d45.57541933413665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5495a43d9549cec1%3A0x1fe97c7a9533576b!2sSheraton+Portland+Airport+Hotel!5e0!3m2!1sen!2sus!4v1392872532608
+  content: |
+    All of our Sheraton rooms have been booked, but don't worry. In order
+    to accommodate as many people as possible, we have two additional hotels you
+    can stay at with special convention-rate rooms for Furlandians!
+
+- name: Hampton Inn Portland-Airport
+  anchor: hampton
+  sold_out: true
+  url: http://hamptoninn.hilton.com/en/hp/groups/personalized/P/PDXAPHX-FUR-20170526/index.jhtml?WT.mc_id=POG
+  telephone:
+    linkText: "(503) 288-2423"
+    url: "tel:15032882423"
+  postalAddress:
+    streetAddress: "8633 NE Airport Way"
+    addressLocality: Portland
+    addressRegion: OR
+    postalCode: "97220"
+  mapurl: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4696.459468714316!2d-122.57161823148931!3d45.5798590338342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9ca3990f0f8f45dc!2sHampton+Inn+Portland-Airport!5e0!3m2!1sen!2sus!4v1489811411561
+  content: |
+    Situated on airport grounds a short ride from the Portland International
+    Airport (PDX), the **Hampton Inn Portland-Airport**  is adjacent to
+    the **Sheraton Portland Airport**, making it a short walk from our main
+    convention space. Like our main hotel, there's a 24-hour complimentary
+    shuttle service to PDX and its
+    <a href="http://trimet.org/ride/stop.html?stop_id=10576" target="_blank" rel="noopener noreferrer">TriMet</a>
+    light rail connection, and also benefits from the same close proximity to
+    <a href="https://goo.gl/maps/ymHwt3CXFJA2" target="_blank" rel="noopener noreferrer">Interstate 205</a>.
+
+    ### Why You Should Book a Room
+
+    <img class="flavor-img" src="img/hampton.jpg">
+
+    The **Hampton Inn Portland-Airport** is a modern, well-equipped hotel with
+    all of the amenities that you'd expect. These include:
+
+    * Free Wi-Fi in guest rooms
+    * Shuttle to Airport terminal and MAX Light Rail
+    * On-site ATM
+    * On-site Fitness Center
+    * Snack Shop
+    * Safety deposit box
+    * Gift shop located in hotel lobby
+    * 100% no-smoking policy throughout the whole hotel
+    * Laundry/valet service
+    * Complimentary hot breakfast or breakfast bag
+
+    Staying at the **Hampton Inn Portland-Airport** means you'll be right
+    next door to all the action, so you won't need to drive anywhere, or even
+    walk very far. Our specially-negotated room rates also help you save money.
+
+    The **Hampton Inn Portland-Airport** cannot accept pets. However, registered
+    service animals are welcome.
+
+  pricing: |
+    For **Furlandia 1929: Age of Prosperity!** we've negotiated some great
+    discounted rates for convention attendees.
+
+    Please note that the rates listed below for the **Hampton Inn
+    Portland-Airport** only apply to guest bookings made using the
+    <a target="_blank" rel="noopener noreferrer" href="http://hamptoninn.hilton.com/en/hp/groups/personalized/P/PDXAPHX-FUR-20170526/index.jhtml?WT.mc_id=POG">booking link</a>
+    with a check-in date of **May 26** and a departure date of **May 28**.
+    Additional nights will be charged according to the hotel's standard pricing.
+
+    <u>Single King</u>
+
+    * With pull-out sofa sleeper - $129
+
+    <u>Double Queen</u>
+
+    * $139
+
+    Quoted rates are for single and double occupancy respectively. Room rate
+    increases by $10 for each additional guest. Maximum occupancy per room
+    is four (4) guests. Rates are non-commissionable and do not include
+    applicable state and local taxes, currently 15.3%.

@@ -1,0 +1,144 @@
+blurb: |
+  Every year at Furlandia we invite some of the most celebrated members of our
+  community to be our official Guests of Honor. This year, thanks to our
+  expanding attendance figures, we're honored to have six special guests, some
+  local to the Portland area and others who hail from further away.
+  
+  Throughout the weekend, you'll have a chance to meet and talk with our Guests
+  of Honor, as well as attend the various panels, discussions, and performances
+  they'll be putting on. And if you're a Patron or Sponsor, you'll have even
+  more chance of meeting our guests at our special patron- and sponsor-only
+  events!
+
+guests:
+  - name: Etuix
+    photo: etuix.jpg
+    url:
+      Website: https://etuixart.com
+      Twitter: https://www.twitter.com/@artbyEtuix
+      FurAffinity: https://www.furaffinity.net/user/etuix
+      Patreon: https://www.patreon.com/Etuix
+    bio: |
+      Originally born in the Netherlands, Maggie has been working as a
+      professional artist for over ten years under the name Etuix (pronounced
+      "E-Twix", like the candy!) Maggie got her start as an artist drawing
+      Neopets. Her joy of drawing cute furry animals naturally led her to the
+      furry fandom after being introduced to it by a friend in early 2007.
+
+      Predominantly a digital artist, she produces her artwork using a Wacom
+      Cintiq and Adobe Photoshop. She creates traditional artwork exclusively at
+      conventions.
+
+      Maggie has been a dealer at west coast furry conventions since 2013.
+
+      When not working on art, she loves reading, anime, hiking, and video
+      games. She currently lives in Portland, OR with her husband and their two
+      Bernese mountain dogs, Enzo and Ender.
+
+      If you see her, come say hi!
+
+  - name: Onnanoko
+    photo:
+    url:
+      Website: http://onnanokoart.tumblr.com
+      Twitter: https://www.twitter.com/@RachelFujiArt
+      DeviantArt: http://onnanoko.deviantart.com
+      FurAffinity: https://www.furaffinity.net/user/onnanoko
+      Patreon: https://www.patreon.com/RachelFujiArt
+    bio: |
+      Unable to attend the event.
+
+  - name: Komic Krazi Studios
+    photo: temperance.jpg
+    url:
+      Website: http://komickrazi.com
+      Twitter: https://www.twitter.com/@komickrazi
+      DeviantArt: http://temperance.deviantart.com
+      FurAffinity: https://www.furaffinity.net/user/temperance
+      YouTube: https://www.youtube.com/user/komickrazi
+    bio: |
+      Temperance is a Fursuit maker from Canada. She has been making costumes
+      for 15 years. Originally a comic book artist, she moved into cosplay
+      and costume making when she found the long hours sitting at a drawing
+      desk were becoming too taxing. She discovered the furry fandom and
+      fursuits while attending a local comic convention in 2008 and spotted
+      a furry walking the halls. After some research online she began making
+      some of those “fun animal costumes” and has been making fursuits
+      since then. Her works have won various awards at masquerades and costume
+      competitions including San Diego Comic con and Dragon Con. Her work was
+      also featured in a music video for the Australian band "DZ Deathrays".
+
+  - name: Fox Amoore
+    photo: http://www.foxamoore.com/Official%20website%20of%20Composer_files/images/fa04.jpg
+    url:
+      Website: http://www.foxamoore.com
+      Bandcamp: http://foxamoore.bandcamp.com
+      Twitter: https://www.twitter.com/@foxamoore
+      FurAffinity: https://www.furaffinity.net/user/foxamoore
+      YouTube: https://www.youtube.com/user/KeyboardFox
+      Patreon: https://www.patreon.com/foxamoore
+    bio: |
+      Fox Amoore is a professional composer, pianist and keyboardist. He has
+      performed in various places, from the Albert Hall, to the Cavern Club in
+      Liverpool, Vancouver, the Gold Coast of Australia, and many places in
+      between. He has been building up a global reputation with his inspiring
+      works.
+
+      His music mainly consists of the New-Age and Orchestral styles with a strong
+      piano lead. However, he has also performed and composed in a number of other
+      styles, including jazz and to a lesser extent electronica / modern dance.
+
+      He has performed and composed for numerous acts and media. As a composer, he
+      has worked for Supervillain Studios with their Nintendo Wii production
+      *Order Up!* He has also composed for Gamer Tonight, an acclaimed comedy
+      video game parody show, as well as various media and commerial products.
+
+      Fox has been performing at furry conventions for many years, and has taken
+      part in all sorts of interesting collaborations in that time. He's also one
+      half of the furry duet known as Foxes and Peppers.
+
+  - name: Pepper Coyote
+    photo: pepper-coyote.jpg
+    url:
+      Website: http://lookleft.us
+      Bandcamp: https://peppercoyote.bandcamp.com
+      Twitter: https://www.twitter.com/@peppercoyote
+      FurAffinity: https://www.furaffinity.net/user/peppercoyote
+    bio: |
+      Pepper has been performing music for 10 years, 5 of which were spent in the
+      furry fandom. Since 2011 Pepper has played in stairwells, hotel rooms, panel
+      rooms, and main event halls from Pittsburgh to San Jose. This wil be
+      Pepper's first show in Portland, and his first time setting foot in Oregon.
+      He has, however, watched the documentary "Portlandia", so he feels prepared.
+
+      Pepper is primarily a singer, but also playes guitar and messes around with
+      a looper. At the show you'll hear tons of looping madness. We start with
+      something simple, and over the course of a couple of minutes, a whole band's
+      sound is created with just a guy and a little box. It's pretty neat.
+
+      We hope you'll come and check out one of Pepper's shows or panels. He's a
+      unique performer and we think you'll have a good time.
+
+  - name: Jumpiicat
+    photo: jumpiicat.jpg
+    bio: |
+      Becoming entranced with the dirty house sounds of the mid 2000s,
+      the rough and euphoric sounds of classic hardstyle in 2009, and
+      later the thumping jump/tek and freestyle beats of the current day,
+      DJ Jumpiicat has always had a taste for something different. Honing
+      his skills in recent years, he's done varying gigs ranging from
+      basketball halftime shows, to weddings, to barbeques and beyond,
+      typically playing pop/house and indie dance hits. On the mainstage
+      however, Jumpiicat brings his own unique stylings of freestyle hard
+      dance, old to new school, euphoric and raw. Anything but a one-act show,
+      his musical experience also extends to classical and jazz performance,
+      as well as industrial/musical theatre sound engineering.
+
+icons:
+  DeviantArt: /img/social/deviantart-white.png
+  Bandcamp: /img/social/bandcamp-white.png
+  FurAffinity: /img/social/furaffinity-white.png
+  Patreon: /img/social/patreon-white.png
+  Twitter: /img/social/twitter-white.png
+  Website: /img/social/website-white.png
+  YouTube: /img/social/youtube-white.png

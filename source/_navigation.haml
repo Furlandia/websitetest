@@ -1,0 +1,33 @@
+.nav-wrapper
+  %nav.navbar.navbar-inverse.navbar-default
+    .container
+      .navbar-header
+        %button.navbar-toggle.collapsed{'aria-controls' => 'navbar', 'aria-expanded' => 'false', 'data-target' => '#navbar', 'data-toggle' => 'collapse', :type => 'button'}
+          %span.sr-only Toggle navigation
+          %span.icon-bar
+          %span.icon-bar
+          %span.icon-bar
+        = link_to data.navigation.title, '/2017/', class: 'navbar-brand'
+      #navbar.collapse.navbar-collapse
+        %ul.nav.navbar-nav
+          - data.navigation.menu.each do |name, nav|
+            - if nav.is_a?(String)
+              %li= link_to name, nav
+            - else
+              %li.dropdown
+                %a.dropdown-toggle{'aria-expanded' => false, 'aria-haspopup' => true, 'data-toggle' => 'dropdown', href: '#', role: 'button'}
+                  = name
+                  %span.caret
+                %ul.dropdown-menu
+                  - nav.each do |sub, link|
+                    %li= link_to sub, link
+          %li.dropdown
+            %a.dropdown-toggle{'aria-expanded' => false, 'aria-haspopup' => true, 'data-toggle' => 'dropdown', href: '#', role: 'button'}
+              Social
+              %span.caret
+            %ul.dropdown-menu
+              - data.navigation.social.each do |name, nav|
+                %li
+                  = link_to nav.link, target: '_blank' do
+                    %span{class: "fa fa-#{nav.icon} fa-fw"}
+                    = name

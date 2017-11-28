@@ -1,0 +1,19 @@
+.footer.section-wrapper
+  %footer.container
+    .banner.banner-left
+      = partial 'ads', locals: {ads: data.navigation.ads.left}
+    .banner.banner-right
+      = partial 'ads', locals: {ads: data.navigation.ads.right}
+    .links
+      %p
+        - past_years.each do |year|
+          = link_to "/#{year}", _target: 'blank' do
+            %span= year
+      %p
+        - data.navigation.social.each do |name, site|
+          = link_to site.link, _target: 'blank' do
+            %span{class: "fa fa-#{site.icon} fa-2x"}
+      %p
+        We are a production of
+        = link_to 'RAIn', 'https://www.rainfurrest.org/board/'
+        a 501(c)(3) non-profit

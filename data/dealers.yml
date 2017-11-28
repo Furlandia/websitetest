@@ -1,0 +1,250 @@
+# Etsy links: https://www.etsy.com/shop/[username]
+# DeviantArt links: https://[username].deviantart.com/
+# Inkbunny links: https://inkbunny.net/[username]
+# Pinterest links: https://www.pinterest.com/[username]
+# Patreon links: https://www.patreon.com/[username]
+
+- table: F1
+  name: Furlandia
+  type: Convention
+  social:
+    furaffinity: furlandia
+    twitter: furlandia
+    facebook: furlandia
+    vine: furlandia
+    instagram: furlandiapdx
+    tumblr: furlandiapdx
+
+- table: F2
+  name: Animal Aid
+  guest: 15, 16, 17
+  type: Charity Guest of Honor
+  social:
+    twitter: animalaidpdx
+    facebook: AnimalAidPDX
+
+- table: F3
+  name: Rehydration Station
+
+- table: F4
+  name: Our Friends
+
+- table: F5
+  name: Convention Services
+
+- table: A01
+  name: Jayful Delights
+  type: Scaley art
+  social:
+    furaffinity: jaystrex
+    facebook: JayOfAllTrades1463
+    instagram: jayst.rex
+
+- table: A02
+  name: PKPaw Productions
+  type: Art, sculptures
+  social:
+    furaffinity: pkpproductions
+    facebook: pkpproductions
+    tumblr: pkpproductions
+    website1: https://picarto.tv/pkpawproductions
+
+- table: A03
+  name: Chronos Gifts
+  type: Plushies
+  social:
+    facebook: groups/138402962939368/
+
+- table: A04
+  name: Lupercus
+  type: Blacksmith
+
+- table: A05
+  name: Alisha Rotondi
+  type: Gifts & Apparel
+
+- table: A06
+  name: Mary E. Lowd
+  type: Books
+  social:
+    furaffinity: ryffnah
+    twitter: ryffnah
+    website1: http://marylowd.com/
+    website2: http://deepskyanchor.com/
+
+- table: A07
+  name: Dark Hammer
+  type: Card games, art, badges
+
+- table: A08
+  name: Tony's FURniture
+  type: Arts & Crafts, Furniture
+
+- table: A09
+  name: Og's Fursuits
+  guest: 15
+  type: 2015 Fursuit Maker Guest of Honor
+  social:
+    furaffinity: ognas
+    weasyl: ognas
+    twitter: ognas0
+    facebook: ogsuits
+
+- table: A10
+  name: HamburgerBasket
+  type: Stickers, posters, paintings, crafts
+  social:
+    furaffinity: hamburger-time
+    twitter: hamburrgertime
+    facebook: hamburgerbasket
+    instagram: hamburgerbasket
+    tumblr: burg-art
+
+- table: A11
+  name: Raptor Arts
+  type: Leatherwork, books, wand crafting, woodwork, masks
+  social:
+    etsy: raptorarts
+    furaffinity: raptorarts
+    weasyl: raptorarts
+    twitter: raptorarts
+    facebook: raptorarts
+    website1: http://raptorarts.com
+
+- table: A12
+  name: Hundeliebe Publishing
+  type: Books, art prints
+  social:
+    furaffinity: Flowersfang
+    twitter: maddiekellerr
+    facebook: authormadisonkeller
+    website1: http://hundeliebepress.com
+    website2: http://flowersfang.com
+
+- table: A13
+  name: Beleoci
+  type: Prints & Commissions
+
+- table: A14
+  name: Pepper Coyote & Fox Amoore
+  guest: 17
+  type: 2017 Musical Guests of Honor
+  social:
+    website1: https://furlandia.org/2017/goh.html
+
+- table: A15
+  name: WerePuppy &ndash; Rabbit Valley Comics
+  type: Art, some mature themes
+
+- table: A16
+  name: Etuix
+  guest: 17
+  type: 2017 Artist Guest of Honor
+  social:
+    furaffinity: etuix
+    twitter: artbyetuix
+    website1: http://www.etuixart.com
+
+- table: A17
+  name: Lorien Inksong
+  type: Art prints, T-shirts, phone cases, and more
+
+- table: A18
+  name: Rising Dragon Arts
+  type: Posters, coloring books
+  social:
+    patreon: risingdragon
+    furaffinity: risingdragon
+    twitter: risingdragonart
+    deviantart: risingdragonart
+
+- table: A19
+  name: Art Of Yote
+  type: Prints, keychains, magnets
+  social:
+    furaffinity: -yote-
+    facebook: artofyote
+    deviantart: yote
+    website1: http://www.artofyote.com
+
+- table: A20
+  name: Kites Beadsprites
+  type: Perler, badges, decor
+  social:
+    furaffinity: gasmaskdragon
+
+- table: A21
+  name: RedHyena Fursuits
+  type: Fursuits
+  social:
+    furaffinity: redhyena
+    weasyl: redhyena
+    twitter: redhyena
+    website1: http://redhyena.net
+
+- table: A22
+  name: Cerelin Creations
+  type: Headwear
+
+- table: A23
+  name: Kacey Miyagami
+  guest: 14
+  type: 2014 Artist Guest of Honor
+  social:
+    furaffinity: kacey
+    weasyl: kacey
+    twitter: kaceyfish
+    deviantart: kaceym
+    website1: http://www.otonashi.net/
+
+- table: A24
+  name: Chimaera Conspiracy
+  type: T-shirts
+
+- table: A25
+  name: Danji Isthmus
+  type: Fursuit parts
+
+- table: A26
+  name: Grrrwolf
+  type: Artist
+
+- table: A27
+  name: Cervidian
+  type: Prints, cards, coloring books
+  social:
+    furaffinity: cervidian94
+    deviantart: cervidian94
+
+- table: A28
+  name: Mamma Bear
+  type: Crochet
+
+- table: A29
+  name: Matrices
+  type: Fursuits and fursuit accessories
+  social:
+    etsy: matrices
+    furaffinity: matrices
+    weasyl: matrices
+    twitter: raisedbydogs
+    vine: raisedbydogs
+    tumblr: matrices
+    pinterest: raisedbydogs
+    website1: http://matrices.net
+
+- table: A30
+  name: Tori Meader Studios
+  type: Prints, figurines, pendants
+
+- table: A31
+  name: Omadaun
+  type: Art commissions, posters, woodburning
+  social:
+    furaffinity: omadaun
+
+- table: A32-A33
+  name: RACK Leather Goods
+  type: (Mature) Leatherwork, adult toys
+  social:
+    website1: http://www.rackleather.com/

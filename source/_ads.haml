@@ -1,0 +1,4 @@
+- if ads
+  - ads.each do |name, site|
+    = link_to site.link, target: '_blank' do
+      = image_tag "banners/#{site.image}", alt: name

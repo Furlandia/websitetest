@@ -1,0 +1,17 @@
+---
+title: Contact Us
+---
+
+%h2 Contact Furlandia
+
+%h3 By Email
+
+- data.contact.emails.each do |name, email|
+  %p= "#{mail_to email} - #{name}"
+
+%h3 By Mail
+
+%p
+  - data.contact.address.lines.each do |line|
+    %code= line
+    %br

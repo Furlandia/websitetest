@@ -1,0 +1,26 @@
+---
+title: Live
+---
+
+.text-center
+  = link_to 'WATCH LIVE', 'https://www.youtube.com/c/Furlandia/live', class: 'btn btn-register btn-huge'
+
+  %h2.brand-font Subscribe to our YouTube channel!
+  %script{src: 'https://apis.google.com/js/platform.js'}
+  .g-ytsubscribe{'data-channelid' => 'UCPvUOUEMQuRiR5e-_m1_3zg', 'data-layout' => 'full', 'data-theme' => 'dark', 'data-count' => 'default'}
+
+%h2 Stream Schedule
+
+- data.schedule.each do |room, days|
+  - days.each do |day, events|
+    - events.each do |event|
+      - next if not event.streamed
+      %div{itemscope: true, itemtype: 'http://schema.org/ScreeningEvent'}
+        %h3{itemprop: 'name', content: event.streamInfo.name}= event.name
+        .stream-times
+          %span{itemprop: 'startDate', content: event.streamInfo.startDate}= DateTime.parse(event.streamInfo.startDate).strftime('%B %-d, %Y %l:%M%P')
+          &ndash;
+          %span{itemprop: 'endDate', content: event.streamInfo.endDate}= DateTime.parse(event.streamInfo.endDate).strftime('%l:%M%P')
+          PDT
+        .event-description
+          = markdown(event.description)

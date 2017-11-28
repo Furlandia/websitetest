@@ -1,0 +1,5 @@
+- if social
+  - each_social_link(social) do |site, url|
+    = link_to url, target: '_blank' do
+      %img{src: "img/social/#{site}.png", alt: site.capitalize}
+

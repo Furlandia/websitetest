@@ -1,0 +1,550 @@
+$background: #442809;
+$text: #efe7da;
+$accent: #d4af37;
+
+$navbar-bg: #6f4915;
+$jumbotron-bg-top: #986922;
+$jumbotron-bg-bottom: $background;
+$button-bg: #704214;
+
+@import 'bootstrap';
+@import 'bootstrap/theme';
+@import 'compass';
+
+.brand-font {
+    font-family: 'Poiret One', cursive;
+}
+
+body {
+    background-color: $background;
+    color: $text;
+}
+
+.section-wrapper > section.container:nth-child(1) {
+    padding-top: 20px;
+}
+
+.panel.wide {
+    min-width: 1500px;
+}
+
+
+.panel-heading {
+    a {
+        color: $text;
+        &:hover {
+            color: #FFF;
+        }
+    }
+}
+.panel-body {
+    font-size: 16px;
+}
+
+.jumbotron {
+    @extend .brand-font;
+    text-align: center;
+    background: linear-gradient(to bottom, $jumbotron-bg-top 0%, $jumbotron-bg-bottom 100%);
+    padding: 28px 0 8px 0;
+
+    > .container {
+        border: 18px solid transparent;
+        margin: 0 auto;
+        border-image: url("../img/jumbotron-border.svg") 18 18;
+    }
+
+    h1 {
+        font-weight: bold;
+        margin-bottom: 0.5em;
+    }
+
+    .btn-register.btn-huge {
+        margin-bottom: 0;
+    }
+}
+
+.navbar {
+    top: 0;
+    width: 100%;
+    z-index: 999999;
+
+    &.navbar-inverse.navbar-default {
+        background-color: $navbar-bg;
+        background-image: none;
+        border-bottom: 1px solid $text;
+        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.9);
+    }
+
+    &.navbar-inverse {
+        .navbar-brand, .navbar-nav > li > a {
+            color: $text;
+        }
+    }
+
+    a:hover {
+        color: #FFF;
+    }
+}
+
+.nav-wrapper {
+    height: 52px;
+}
+
+.navbar-brand {
+    font-family: impact;
+    font-size: 20px;
+}
+
+nav.promoted-actions {
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto 2em auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer {
+    a {
+        color: $text;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #FFF;
+    }
+    .links {
+        text-align: center;
+        span {
+            margin: 0 5px;
+        }
+    }
+}
+
+.banner {
+    width: 300px;
+    height: 90px;
+    margin: 0 auto;
+    @media (max-width: 1000px) {
+        text-align: center;
+    }
+}
+
+.banner-left {
+    @media (min-width: 1000px) {
+        float: left;
+    }
+}
+
+.banner-right {
+    @media (min-width: 1000px) {
+        float: right;
+    }
+}
+
+article.panel {
+    color: $text;
+    background-color: rgba(0,0,0,0.2);
+    border: 6px solid transparent;
+    border-image: url("../img/panel-border.svg") 6 6;
+    border-radius: 6px;
+
+    .panel-heading {
+        color: $text;
+        background-color: rgba(0,0,0,0.5);
+        background-image: none;
+        h3 {
+            margin: 0;
+        }
+    }
+    .panel-body {
+        a {
+            color: $text;
+            text-decoration: underline;
+            &.btn-register {
+                @extend .btn-register;
+                text-decoration: none;
+            }
+        }
+        .goh-social {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            line-height: 48px;
+            .social-icon {
+                display: inline;
+                width: 24px;
+                height: 24px;
+                margin: 0 10px 0 10px;
+            }
+            a {
+                text-decoration: none;
+                display: inline-block;
+                padding-right: 10px;
+            }
+        }
+    }
+    footer {
+        font-size: 80%;
+        text-align: right;
+    }
+    .list-group-item {
+        background-color: transparent;
+    }
+    aside {
+        font-size: 80%;
+        font-style: italic;
+    }
+
+    img {
+        max-width: 100%;
+    }
+}
+
+.registration-table {
+    @extend .table;
+    @media(max-width: 991px) {
+        display: none;
+    }
+    tr > th {
+        min-width: 150px;
+        text-align: center;
+    }
+    .cost {
+        font-size: 30px;
+    }
+    h3 {
+        margin: 0;
+    }
+
+    .feature {
+        font-size: 20px;
+    }
+    .feature-icon {
+        text-align: center;
+        .glyphicon-ok {
+            color: #2ECC40;
+        }
+
+        .glyphicon-remove {
+            color: #FF4136;
+        }
+    }
+
+}
+
+.registration-panels {
+    @extend .row;
+    @media(min-width: 992px) {
+        display: none;
+    }
+    .panel {
+        border-radius: 0;
+        border-right: 0;
+        border-left: 0;
+    }
+}
+
+
+.btn-register {
+    @extend .btn, .btn-lg, .brand-font;
+    margin: 10px 10px;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    border: 3px solid $accent;
+    border-radius: 1.5em;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.9);
+    text-decoration: none;
+    background-color: $button-bg;
+    color: $text;
+
+    &.btn-huge {
+        color: $text;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.9);
+        font-size: 2em;
+        font-weight: bold;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    &:hover {
+        text-decoration: none;
+        color: white;
+    }
+
+    &:active {
+        position: relative;
+        top: 2px;
+        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.9);
+    }
+}
+
+.btn-primary {
+    background-image: linear-gradient(to bottom, $button-bg 0%, black 100%);
+    border: 2px solid $background;
+    border-radius: 0.75em;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.9);
+}
+
+.ui-accordion .ui-accordion-content {
+    display: none;
+}
+
+.ui-accordion .ui-accordion-content.ui-accordion-content-active {
+    display: block;
+}
+
+.ui-accordion .ui-accordion-header {
+    padding-left: 16px;
+}
+.ui-accordion .ui-accordion-header::before {
+    content: "";
+    font-size: 1px;
+    width: 0;
+    height: 0;
+    position: relative;
+    top: -8px;
+    left: -8px;
+    border-left: 8px solid $text;
+    border-top: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+}
+.ui-accordion .ui-accordion-header.ui-accordion-header-active::before {
+    top: 0.75em;
+    border-left: 8px solid transparent;
+    border-top: 8px solid $text;
+}
+
+.dealers-times {
+    @extend .container-fluid;
+    margin: 20px 100px;
+    @media (max-width: 1200px) {
+        margin: 20px 10px 20px 80px;
+    }
+    .row {
+        margin-bottom: 10px;
+        .dealer-label {
+            margin-left: -75px;
+            float: left;
+        }
+        .dealer-bar {
+            background-color: $accent;
+            color: black;
+            text-align: center;
+            @include border-radius(10px);
+        }
+    }
+}
+
+.dealers-map {
+    @extend .img-responsive;
+    display: block;
+    margin: 20px auto;
+}
+
+.popover-title {
+    color: black;
+}
+
+.goh img {
+    @media (max-width: 1000px) {
+        max-height: 300px;
+    }
+}
+
+.dealers {
+    @extend .clearfix;
+    width: 100%;
+    margin-bottom: 20px;
+    tbody {
+        float: left;
+        @media (min-width: 1000px) {
+            width: 50%;
+        }
+    }
+
+    td {
+        padding-left: 20px;
+        .label {
+            vertical-align: middle;
+            margin-left: 3px;
+        }
+    }
+
+    a {
+        color: white;
+        &:hover {
+            text-decoration: none;
+            color: #F3DCCC;
+        }
+    }
+}
+
+.modal-dialog {
+    margin-top: 100px;
+    color: #000;
+}
+
+article.panel .goh-img {
+    max-width: 100%;
+    margin: 24px auto;
+    display: block;
+    margin: 0 auto 16px auto;
+}
+
+@media screen and (min-width: 768px) {
+    article.panel .goh-img {
+        float: right;
+        max-width: 192px;
+        margin-left: 32px;
+        margin-right: 32px;
+        margin-bottom: 32px;
+    }
+}
+
+.media-heading {
+    margin-top: 48px;
+    margin-bottom: 16px;
+}
+
+.label-primary {
+    background-color: $accent;
+    color: black;
+}
+
+article.panel .flavor-img, article.panel .goh-img {
+    max-width: 100%;
+    margin: 24px auto;
+}
+
+article.panel .goh-img {
+    display: block;
+    margin: 0 auto 16px auto;
+    border: 16px solid transparent;
+    border-image: url("../img/goh-border.svg") 16 16;
+}
+
+@media screen and (min-width: 768px) {
+    article.panel .flavor-img, article.panel .goh-img {
+        float: right;
+    }
+
+    article.panel .flavor-img {
+        max-width: 384px;
+        margin-left: 24px;
+        margin-bottom: 24px;
+    }
+
+    article.panel .goh-img {
+        max-width: 192px;
+        margin-left: 32px;
+        margin-right: 32px;
+        margin-bottom: 32px;
+    }
+}
+
+.media-heading {
+    margin-top: 48px;
+    margin-bottom: 16px;
+}
+
+// Schedule css
+
+.schedule {
+    tr {
+        height: 50px;
+    }
+    td, th {
+        min-width: 90px;
+    }
+    .hour {
+        border-top: 3px solid white;
+    }
+
+    .event {
+        text-align: center;
+        border: 2px solid black;
+        border-width: 0 2px;
+        color: black;
+        padding: 5px;
+    }
+
+    .room {
+        min-width: 150px;
+    }
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.event-open {
+    background-color: #01FF70;
+}
+.event-closed {
+    background-color: #DDDDDD
+}
+.event-mature {
+    background-color: #F012BE;
+    cursor: pointer;
+}
+
+.modal-dialog {
+    margin-top: 100px;
+    color: #000;
+}
+
+.deadline {
+    background-color: #ff4136;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+img.travel-img {
+    @extend .flavor-img;
+    @extend .col-sm-12;
+    @extend .col-md-3;
+}
+
+#accordion h4 {
+    margin-top: 1.5em;
+}
+
+.countdown {
+    width: 620px;
+    margin: 0 auto;
+    text-align: center;
+    @media (max-width: 644px) and (min-width: 576px){
+        @include apply-origin(0, 0);
+        @include transform(scale(0.9));
+    }
+    @media (max-width: 575px) and (min-width: 512px){
+        @include apply-origin(0, 0);
+        @include transform(scale(0.8));
+    }
+    @media (max-width: 511px) and (min-width: 452px){
+        @include apply-origin(0, 0);
+        @include transform(scale(0.7));
+    }
+    @media (max-width: 451px) and (min-width: 361px){
+        @include apply-origin(0, 0);
+        @include transform(scale(0.6));
+    }
+    @media (max-width: 360px) {
+        @include apply-origin(0, 0);
+        @include transform(scale(0.50));
+    }
+}
+
+.flip-clock-divider > .flip-clock-label {
+    color: #fff;
+}

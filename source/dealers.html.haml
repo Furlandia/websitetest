@@ -1,0 +1,66 @@
+---
+title: Dealer's Den
+---
+
+%h2 Dealers' Den
+
+%p
+  If you have any questions, please contact us at
+  = link_to 'dealers@furlandia.org', 'mailto:dealers@furlandia.org'
+  = '.'
+
+.dealers-times
+  .row
+    .dealer-label
+      Thursday
+    .dealer-bar.col-sm-3.col-sm-offset-9
+      6pm-10pm (Setup)
+  .row
+    .dealer-label
+      Friday
+    .dealer-bar.col-sm-3
+      9am - 11am (Setup)
+    .dealer-bar.col-sm-6
+      11am - 6pm
+  .row
+    .dealer-label
+      Saturday
+    .dealer-bar.col-sm-8.col-sm-offset-1
+      10am - 6pm
+  .row
+    .dealer-label
+      Sunday
+    .dealer-bar.col-sm-7.col-sm-offset-1
+      10am - 5pm
+
+%p Note: These hours are pending and may change closer to the convention.
+
+%h3 Dealers
+
+= link_to 'img/dealersdenmap.png', target: '_blank' do
+  = image_tag 'dealersdenmap.png', alt: 'Dealers\' Den map', class: 'dealers-map', resize_to: '40%'
+
+%table.dealers
+  - data.dealers.in_groups(2, false) do |list|
+    %tbody
+      - list.each do |dealer|
+        %tr
+          %td
+            = dealer['table']
+          %td
+            - if dealer['type']
+              %a{tabindex: 0, role: 'button', :'data-toggle' => 'popover', :'data-trigger' => 'focus', :'data-html' => 'true', :'data-content' => partial('dealers-social', locals: {social: dealer.social}), title: dealer['type']}
+                = dealer['name']
+            -else
+              = dealer['name']
+            - (dealer['guest'].to_s || '').split(',').map(&:strip).each do |year|
+              - if year == '17'
+                %span.label.label-primary{:'data-toggle' => 'tooltip', :'data-placement' => 'right', title: "20#{year} Guest of Honor"}= year
+              - elsif dealer['guest']
+                %span.label.label-default{:'data-toggle' => 'tooltip', :'data-placement' => 'right', title: "20#{year} Guest of Honor"}= year
+
+%h2 Artist Alley
+
+:markdown
+  We are pleased to announce that we will be introducing our first-ever
+  <a href="artist-alley.html" target="_blank">**Artist Alley**</a> at Furlandia 2017!

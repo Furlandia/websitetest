@@ -1,0 +1,9 @@
+- content_for :assets do
+  :css
+    .section-wrapper {
+      border: none;
+    }
+= wrap_layout :default do
+  %section.container-fluid.top
+    = yield
+  %br

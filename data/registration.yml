@@ -1,0 +1,20 @@
+blurb: Pre-registration for Furlandia is currently open
+features:
+    - Access to all three days of the convention
+    - Access to Patron and Sponsor only events
+    - Patron/Sponsor Badge
+    - Furlandia T-Shirt
+    - Mentioned in con book
+    - Two drink tickets
+    - Priority access to all major events
+levels:
+    - name: Attending
+      cost: $35
+      features: [1]
+    - name: Sponsor
+      cost: $75
+      features: [1, 2, 3, 4]
+    - name: Patron
+      cost: $125
+      features: [1, 2, 3, 4, 5, 6, 7]
+

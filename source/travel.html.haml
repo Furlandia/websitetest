@@ -1,0 +1,37 @@
+---
+title: Travel
+---
+
+%h1 Travel
+
+%p
+  Welcome to Portland! Our lovely city has many nicknames but the main two are
+  Bridgetown and Rose City. A brief tour around town will show you why!
+
+%p
+  If you are new to Portland and want to see some mustn't-miss landmarks while
+  you are in town, check out these places:
+
+%div#accordion
+  - data.travel.sections.each do | section |
+    %h3= section.name
+    %div
+      - if section.text then
+        %p= markdown(section.text)
+      - if section.items then
+        - section.items.each do | item |
+          %h4
+            %i
+              - if item.website
+                = link_to item.name, item.website, target: '_blank'
+              - else
+                = item.name
+              - if item.address then
+                = ": #{link_to item.address, map_link(item.address), target: '_blank'}"
+          - if item.image
+            = image_tag item.image, alt: item.name, class: 'travel-img'
+          %div= markdown(item.description)
+          %div{style: 'clear:both;'}
+
+%p
+  Welcome to Portland, and we hope you enjoy your stay!

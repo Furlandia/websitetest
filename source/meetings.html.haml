@@ -1,0 +1,19 @@
+---
+title: Meeting Schedule
+---
+
+%h2 Meeting Schedule
+%p= markdown(data.meetings.blurb)
+
+%table.table
+  %thead
+    %tr
+      %th Date
+      %th Time
+      %th Location
+  %tbody
+    - data.meetings.list.each do |meeting|
+      %tr
+        %td= meeting.date
+        %td= meeting.time
+        %td= meeting.location

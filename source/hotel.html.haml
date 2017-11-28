@@ -1,0 +1,48 @@
+---
+title: Hotel2
+---
+
+%h2 Hotel Information
+
+:markdown
+  We're excited to be returning for another year at the **Sheraton Portland
+  Airport Hotel** for **Furlandia 1929: Age of Prosperity!** for our events and
+  convention space!
+
+  <a href="http://www.sheratonportlandairport.com" target="_blank" rel="noopener noreferrer">**Sheraton Portland Airport Hotel**</a>    
+  8235 NE Airport Way    
+  Portland, OR 97220    
+  Phone: [(503) 281-2500](tel:15032812500)
+
+#accordion
+  - data.venue.hotels.each do |hotel|
+    - if hotel.contentHidden
+      - next
+    %h3
+      - if hotel.sold_out
+        = "#{hotel.name}: SOLD OUT"
+      - else
+        = hotel.name
+    %div
+      .text-center{style: 'margin:2em auto'}
+        - if hotel.sold_out
+          %button{disabled: true, class: 'btn-register'} Sold Out
+        - else
+          = link_to 'Book a Room', hotel.url, class: 'btn-register', target: '_blank', rel: 'noopener noreferrer'
+      = markdown(hotel.content)
+      - if not hotel.sold_out
+        %h2 Rooms and Rates
+        = markdown(hotel.pricing)
+        %h2 Hotel House Rules
+        = markdown(data.venue.conduct)
+      %p
+        %b= hotel.name
+        %br
+        = hotel.postalAddress.streetAddress
+        %br
+        = "#{hotel.postalAddress.addressLocality}, #{hotel.postalAddress.addressRegion} #{hotel.postalAddress.postalCode}"
+        %br
+        Phone:
+        = link_to hotel.telephone.linkText, hotel.telephone.url
+      %p.text-center
+        %iframe{src: hotel.mapurl, style: 'border:0', frameborder: 0, height: 450, width: 600}

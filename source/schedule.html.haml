@@ -1,0 +1,93 @@
+---
+title: Schedule of Events
+---
+
+- days = %w(Friday Saturday Sunday)
+- times = %w(9 10 11).product(%w(:00am :30am)).map(&:join) + %w(12 1 2 3 4 5 6 7 8 9 10 11).product(%w(:00pm :30pm)).map(&:join) + %w(12 1 2 3).product(%w(:00am :30am)).map(&:join)
+
+%h2 Schedule of Events
+
+%p Prefer to take the schedule with you? Download Eventbase and have it on your phone!
+
+%p
+  = link_to 'https://itunes.apple.com/us/app/eventbase-the-free-event-app-for-everyone/id580233134?mt=8' do
+    = image_tag 'Download_on_the_App_Store_Badge_US-UK_135x40.svg', alt: 'Download Eventbase on the App Store', width: '157.5px'
+  = link_to 'https://play.google.com/store/apps/details?id=com.xomodigital.eventbase&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' do
+    = image_tag 'https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png', alt: 'Get Eventbase on Google Play', width: '180px'
+
+%p
+  Inside the Eventbase application, press Search (
+  %span.glyphicon.glyphicon-search>
+  ) and type "Furlandia" to find our schedule.
+
+%hr
+
+%p
+  Titles and times are subject to change.  Also available in
+  =link_to 'iCal format', 'schedule.ics'
+  %br
+  %label.dot.event-open
+  \= All Audiences
+  %br
+  %label.dot.event-mature
+  \= Mature 18+ Only
+  %br
+  %label.dot.event-closed
+  \= Closed
+
+- days.each do |day|
+  %h3= day
+  %table.schedule{id: "schedule-#{day}"}
+    %thead
+      %tr
+        %th
+        - data.schedule.keys.each do |room|
+          %th
+            - if room.include?('|')
+              = room.split('|')[0]
+              %br
+              = room.split('|')[1]
+            - else
+              = room
+
+    %tbody
+      - @rowspans = [0] * data.schedule.size
+      - times.each do |time|
+        - next if time =~ /3:\d\dam/ # Don't print anything past 3am
+        - is_hour = (time =~ /:00/)
+        %tr{class: (is_hour ? 'hour' : '')}
+          %td.time= (is_hour ? time : '')
+          - get_events_at(day, time).each_with_index do |event,i|
+            - if event
+              - @rowspans[i] = times.index(event[:end]) - times.index(event[:start])
+              %td.event{id: event_id(event), class: get_event_class(event), rowspan: @rowspans[i]}
+                - if event[:mature]
+                  Mature Panel
+                  %br
+                  (click to show)
+                - else
+                  = event[:name]
+
+            - else
+              - @rowspans[i] -= 1
+              - unless @rowspans[i] > 0
+                %td
+
+.text-center
+  = image_tag 'hotel-map.png'
+
+#mature-modal.modal.fade{tabindex: '-1' ,role: 'dialog'}
+  .modal-dialog{role: 'document'}
+    .modal-content
+      .modal-body
+        %h3 Mature Content Warning
+        %p
+          You are trying to view information for a panel that may contain content of an adult nature and may include material that some attendees may find offensive.
+          If such material offends you or it is illegal to view such material in your community then please do not continue.
+        %p
+          By clicking on the button below to verify your age you agree that you are 18 years of age or older,accept all responsibility for your own actions,
+          and agree that you will not hold the convention responsible for any offence that it may cause.
+
+      .modal-footer
+        %button#over-18-button.btn.btn-{type: 'button'} I AM OVER 18
+        %button#under-18-button.btn.btn-default{type: 'button', :'data-dismiss' => 'modal'} I AM NOT OVER 18

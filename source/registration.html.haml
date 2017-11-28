@@ -1,0 +1,97 @@
+---
+title: Registration
+---
+
+%p.deadline
+  Pre-registration has closed.  You can still register at the convention for $45.
+
+- r = data.registration
+%table.registration-table{:'aria-hidden' => 'true'}
+  %thead
+    %tr
+      %th
+      - r.levels.each do |level|
+        %th
+          .cost= level.cost
+          %h3= level.name
+  %tbody
+    - r.features.each_with_index do |feature, i|
+      %tr
+        %td.feature= feature
+        - r.levels.each do |level|
+          %td.feature.feature-icon
+            - if level.features.include?(i + 1)
+              %span.glyphicon.glyphicon-ok
+            - else
+              %span.glyphicon.glyphicon-remove
+
+.registration-panels
+  - r.levels.each do |level|
+    .col-xl-4
+      %article.panel.panel-default
+        %header.panel-heading
+          .pull-right= level.cost
+          %h3= level.name
+        %ul.list-group
+          - level.features.map{|f| r.features[f - 1]}.each do |feature|
+            %li.list-group-item= feature
+
+:markdown
+  Pre-registration for this year's Furlandia will close at ***11:59pm PDT*** on ***Sunday, April 30, 2017***. If you have not pre-registered, you will need to do so at the convention. Please be aware that you will not be allowed to attend Furlandia without agreeing to our <a href="conduct.html" target="_blank">conduct policy</a>.
+
+  ### Registration for Minors
+
+  All attendees under the age of 18 are required to have their parent or legal guardian sign a <a href="files/FL2017_parent_form.pdf" target="_blank">Parental Permission and Liability Release Form</a> to hand in when checking in at registration or registering during the convention weekend. We will also have forms available at the convention registration station, but you can also download a printable copy of the form <a href="files/FL2017_parent_form.pdf" target="_blank">here</a>.
+
+  ### Refund Policy
+
+  No refund of any kind will be given for memberships. If you have any questions, please email [registration@furlandia.org](mailto:registration@furlandia.org).
+
+  ### Pre-Registration Prices
+
+  This section is in regards to basic membership only.
+
+  Current Pre-registration price is $35 until 11:59pm on April 30, 2017.
+
+  After 11:59pm, April 30, 2017 - convention tickets will be $45 for the weekend, payable at the convention only. 
+
+  Pre-Registration for Furlandia closes April 30, 2017. After that date you will only be able to register at the convention.
+
+  All payments must be received by 11:59pm on April 30, 2017, or you will lose any unpaid items, ***and your registration price will increase to the at-con prices***.
+
+  ### Membership Types and Benefits
+
+  *Child* - **Free for children under 10**
+
+  + Allows access to most areas and panels of the convention.
+  + Must follow the guidelines set out for minors in the conduct policy.
+  + Children 10 and over must have an Attending membership.
+
+  Minors under the age of 13 must be accompanied at all times by a parent, legal guardian, or an adult designated as 
+  responsible for them by their parent or guardian. Any person accompanying a minor must also purchase a membership
+  that is valid for the entire duration of the minor's attendance.
+
+  Minors between the ages of 13 and 17 must have an adult responsible for them on site and able to be contacted at all times.
+
+  *Attending* - **$35 Pre-registration before April 30, or $45 at the door**
+
+  + Allows access (with proof of age) to all areas of the event for all three days.
+
+  *Sponsor* - **$75**
+
+  + Sponsor Badge
+  + One Furlandia T-Shirt
+  + Access to Patron and Sponsor only events
+
+  *Patron* - **$125**
+
+  + Mentioned in con book
+  + Patron Badge
+  + One Furlandia T-Shirt
+  + If over 21: Two drink tickets
+  + Access to Patron and Sponsor only events
+  + Priority access to all major events
+
+  ### Mail-In Registration
+
+  Checks and money orders can be mailed to PO Box 56330, Portland, OR 97238. Please include your registration number on your payment information.
